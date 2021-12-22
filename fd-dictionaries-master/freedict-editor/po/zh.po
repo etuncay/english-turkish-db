@@ -1,0 +1,1306 @@
+# LANGUAGE translation of freedict-editor.
+# Copyright (C) 2006 THE freedict-editor'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the freedict-editor package.
+# farm <textwiki@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: freedict-editor 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-02 11:42+0200\n"
+"PO-Revision-Date: 2006-02-22 21:51+0800\n"
+"Last-Translator: farm <textwiki@gmail.com>\n"
+"Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:50
+#, c-format
+msgid ""
+"Failed to load glade interface description.  I tried '%s', '%s' and '%s'.\n"
+msgstr ""
+
+#: src/callbacks.c:211
+#, fuzzy, c-format
+msgid "Failed to load %s!"
+msgstr "载入文件失败！"
+
+#: src/callbacks.c:244
+#, c-format
+msgid ""
+"Couldn't find dictionary template.  Checked locations: '%s', '%s' and %s"
+msgstr ""
+
+#: src/callbacks.c:270
+#, fuzzy
+msgid "TEI Files"
+msgstr "新建 TEI 文件"
+
+#: src/callbacks.c:271
+#, fuzzy
+msgid "All Files"
+msgstr "选择文件"
+
+#: src/callbacks.c:284
+#, fuzzy
+msgid "Open File"
+msgstr "选择文件"
+
+#: src/callbacks.c:317
+#, fuzzy
+msgid "Save File"
+msgstr "选择文件"
+
+#: src/callbacks.c:331
+#, fuzzy
+msgid "New Dictionary.tei"
+msgstr "拼写词典："
+
+#: src/callbacks.c:364
+msgid "File modified. Save?"
+msgstr "文件已修改，保存吗？"
+
+#: src/callbacks.c:600 src/callbacks.c:608
+#, c-format
+msgid "Malformed XPath-Template. Only one %%s and many %%%% allowed."
+msgstr ""
+
+#: src/callbacks.c:631
+msgid "No matches."
+msgstr "无匹配。"
+
+#: src/callbacks.c:634
+#, c-format
+msgid "%i matching nodes"
+msgstr "%i 个匹配的节点"
+
+#: src/callbacks.c:652
+#, fuzzy
+msgid "Matching Nodes"
+msgstr "%i 个匹配的节点"
+
+#: src/callbacks.c:717
+#, fuzzy
+msgid "Edit accepted."
+msgstr "编辑的条目已被接受。"
+
+#: src/callbacks.c:751
+msgid "Edited XML is not well formed! Can't save it!"
+msgstr "编辑的XML格式部队！无法保存！"
+
+#: src/callbacks.c:765 src/callbacks.c:940
+msgid "Edited XML is not valid! Won't save it!"
+msgstr "不能编辑直接XML！编辑了也不能保存！"
+
+#: src/callbacks.c:807
+msgid "xmlAddChild(bodyNode, newEntry) failed!"
+msgstr "xmlAddChild(bodyNode, newEntry) 失败！"
+
+#: src/callbacks.c:863
+#, c-format
+msgid "New entry created and editable. Speed: %2.1f entries/hour"
+msgstr ""
+
+#: src/callbacks.c:983
+msgid "Cannot handle entry with form :("
+msgstr "无法按照格式处理条目 :("
+
+#: src/callbacks.c:994
+msgid "Saving form contents as XML failed :("
+msgstr "将内容存为XML时失败 :("
+
+#: src/callbacks.c:1224
+#, c-format
+msgid "Loaded %s from GConf.\n"
+msgstr ""
+
+#: src/callbacks.c:1230
+#, c-format
+msgid "Using builtin default %s.\n"
+msgstr ""
+
+#: src/callbacks.c:1275
+#, c-format
+msgid "Key was empty. Using default: %s\n"
+msgstr ""
+
+#: src/callbacks.c:1277
+#, c-format
+msgid "Using stylesheet filename from gconf: %s\n"
+msgstr ""
+
+#: src/callbacks.c:1323
+#, c-format
+msgid "Couldn't find entry template.  Checked locations: '%s', '%s' and %s"
+msgstr ""
+
+#: src/callbacks.c:1329
+msgid "Failed to parse entry template!"
+msgstr ""
+
+#: src/callbacks.c:1338
+#, c-format
+msgid "Could not load entry stylesheet %s. HTML Preview won't work!"
+msgstr ""
+
+#: src/callbacks.c:1440
+msgid "Error converting entry to HTML!"
+msgstr "将条目转换成 HTML 时出错！"
+
+#. save contents of form
+#: src/callbacks.c:1479
+msgid "Saving form contents as XML failed."
+msgstr "将格式化的内容保存为XML失败"
+
+#: src/callbacks.c:1559
+msgid "No Drops accepted while unsaved changes in memory."
+msgstr ""
+
+#: src/callbacks.c:1578
+#, fuzzy, c-format
+msgid "Did not recognize URI in Drop (no \\r\\n): %s\n"
+msgstr "没有识别下拉的文件URI (无\\r\\n)：%s\n"
+
+#: src/callbacks.c:1581
+#, fuzzy, c-format
+msgid "Did not recognize file-URI in Drop: %s\n"
+msgstr "没有识别下拉的文件URI：%s\n"
+
+#: src/callbacks.c:1636
+msgid "Failed to find 'xkbprint' in path."
+msgstr ""
+
+#: src/callbacks.c:1642
+msgid "Failed to find 'gv' in path."
+msgstr ""
+
+#: src/callbacks.c:1650
+#, c-format
+msgid "Failed to show keyboard layout with command: %s"
+msgstr ""
+
+#: src/callbacks.c:1653
+#, c-format
+msgid "Done: %s"
+msgstr ""
+
+#: src/callbacks.c:2113
+msgid "Finished Spellcheck."
+msgstr ""
+
+#: src/callbacks.c:2211
+#, c-format
+msgid "%s, size=%s"
+msgstr ""
+
+#: src/callbacks.c:2242
+msgid "This binary of FreeDict-Editor was compiled without aspell support."
+msgstr ""
+
+#: src/callbacks.c:2282
+#, c-format
+msgid "There is no use in replacing a misspelled word with itself.\n"
+msgstr ""
+
+#: src/callbacks.c:2741
+#, fuzzy
+msgid "Missing Part-of-Speech"
+msgstr "词型"
+
+#: src/callbacks.c:2743
+msgid "Nouns without Gender"
+msgstr ""
+
+#: src/callbacks.c:2745
+msgid "Notes with Question Marks"
+msgstr ""
+
+#: src/callbacks.c:2747
+#, fuzzy
+msgid "Empty Headwords"
+msgstr "标题字"
+
+#: src/callbacks.c:2749
+msgid "Empty Body"
+msgstr ""
+
+#. too slow
+#: src/callbacks.c:2753
+msgid "Homographs of same Part-of-Speech"
+msgstr ""
+
+#: src/callbacks.c:2758
+msgid "Broken Cross-References"
+msgstr ""
+
+#: src/callbacks.c:2763
+#, fuzzy
+msgid "Multiple Headwords"
+msgstr "标题字"
+
+#: src/callbacks.c:2765
+msgid "\"to \" before verbs (only useful for English, checks tr)"
+msgstr ""
+
+#: src/callbacks.c:2767
+msgid "\"to \" before verbs (only useful for English, checks orth)"
+msgstr ""
+
+#: src/callbacks.c:2769
+msgid "Unbalanced braces"
+msgstr ""
+
+#: src/callbacks.c:2894
+#, c-format
+msgid "%1$s (%2$i matches)"
+msgstr ""
+
+#: src/callbacks.c:2983
+#, fuzzy
+msgid "Sanity checks performed."
+msgstr "健全检查(_a)..."
+
+#: src/callbacks.c:3026
+msgid "Check Enabled?"
+msgstr ""
+
+#: src/callbacks.c:3035
+#, fuzzy
+msgid "Check Name"
+msgstr "检查健全性"
+
+#: src/callbacks.c:3041
+#, fuzzy
+msgid "Matching Entries"
+msgstr "%i 个匹配的节点"
+
+#: src/utils.c:93
+msgid ""
+"1. Open a TEI file\n"
+"2. Modify the XPath select expression to match\n"
+"\tthe entries you desire to edit\n"
+"3. Double-click on an entry headword in the list\n"
+"\tof matching entries to the right!"
+msgstr ""
+
+#: src/utils.c:144
+#, fuzzy, c-format
+msgid "Saving to %s failed."
+msgstr "将格式化的内容保存为XML失败"
+
+#: src/utils.c:150
+msgid "Saved."
+msgstr ""
+
+#: src/entryedit.c:144
+msgid "(nothing)"
+msgstr ""
+
+#. show label "No cross-references exist."
+#. XXX care for this label when creating a new sense and adding the first xr
+#: src/entryedit.c:221
+msgid "No Cross-References exist."
+msgstr ""
+
+#: src/entryedit.c:274
+#, fuzzy
+msgid "Translation Equivalent"
+msgstr "翻译的语言(_T)"
+
+#: src/entryedit.c:279 freedict-editor.glade:746
+msgid "Part of Speech"
+msgstr "词型"
+
+#: src/entryedit.c:293 freedict-editor.glade:799
+msgid "Genus"
+msgstr "词性"
+
+#: src/entryedit.c:376
+#, fuzzy, c-format
+msgid "Sense %i"
+msgstr "字义"
+
+#. domain label
+#: src/entryedit.c:386
+msgid "Domain"
+msgstr ""
+
+#: src/entryedit.c:404
+msgid "Domain of use"
+msgstr ""
+
+#. register label
+#: src/entryedit.c:410
+msgid "Register"
+msgstr ""
+
+#: src/entryedit.c:428
+msgid "Usage context"
+msgstr ""
+
+#. translations label
+#: src/entryedit.c:432
+#, fuzzy
+msgid "Translation(s)"
+msgstr "<tr> - 翻译"
+
+#: src/entryedit.c:464
+msgid "Add new Translation Equivalent"
+msgstr ""
+
+#: src/entryedit.c:475 src/entryedit.c:581
+msgid "Add"
+msgstr ""
+
+#: src/entryedit.c:486
+#, fuzzy
+msgid "Remove last Translation Equivalent"
+msgstr "从该条目删除最近的字义"
+
+#: src/entryedit.c:500 src/entryedit.c:605
+msgid "Remove"
+msgstr ""
+
+#: src/entryedit.c:521
+msgid "Definition of this Sense"
+msgstr ""
+
+#: src/entryedit.c:538
+msgid "Freestyle Note"
+msgstr ""
+
+#: src/entryedit.c:570
+msgid "Add new Cross-Reference to another Headword in this Dictionary"
+msgstr ""
+
+#: src/entryedit.c:592
+#, fuzzy
+msgid "Remove last Cross-Reference"
+msgstr "从该条目删除最近的字义"
+
+#. example
+#: src/entryedit.c:611
+msgid "Example"
+msgstr ""
+
+#: src/entryedit.c:625
+msgid "Example phrase or sentence where the Headword is used in this Sense"
+msgstr ""
+
+#: src/entryedit.c:635
+#, fuzzy
+msgid "Optional Translation of the Example"
+msgstr "<eg><tr> - 翻译的例子"
+
+#: src/entryedit.c:715
+#, c-format
+msgid "Unknown <%s> content: '%s'\n"
+msgstr ""
+
+#: src/entryedit.c:1048
+#, c-format
+msgid "Remaining content in entry: '%s'.\n"
+msgstr ""
+
+#: src/xml.c:302
+#, c-format
+msgid "%s: %i matching nodes (only 1 expected). Taking first.\n"
+msgstr ""
+
+#: src/xml.c:445
+msgid "No nodes (form/orth)!"
+msgstr ""
+
+#: src/values.c:79
+#, c-format
+msgid "GSList2Values: length=%i sizeof(Values)=%i\n"
+msgstr ""
+
+#: src/values.c:95
+#, c-format
+msgid " label: '%s' value: '%s'\n"
+msgstr ""
+
+#: src/values.c:161
+msgid "Undetermined"
+msgstr ""
+
+#: src/values.c:162
+msgid "Antonym"
+msgstr ""
+
+#: src/values.c:163
+msgid "Hypernym"
+msgstr ""
+
+#: src/values.c:164
+msgid "Hyponym"
+msgstr ""
+
+#: src/values.c:165
+msgid "Synonym"
+msgstr ""
+
+#: src/values.c:166
+msgid "Derived from"
+msgstr ""
+
+#: src/values.c:171 src/values.c:192 src/values.c:203
+#, fuzzy
+msgid "None"
+msgstr "无(_N)"
+
+#: src/values.c:172
+#, fuzzy
+msgid "_Noun"
+msgstr "无(_N)"
+
+#: src/values.c:173
+msgid "Verb"
+msgstr ""
+
+#: src/values.c:174
+msgid "Transitive Verb"
+msgstr ""
+
+#: src/values.c:175
+msgid "Intransitive Verb"
+msgstr ""
+
+#: src/values.c:176
+msgid "Transitive and intransitive Verb"
+msgstr ""
+
+#: src/values.c:177
+msgid "Adverb"
+msgstr ""
+
+#: src/values.c:178
+msgid "_Adjective"
+msgstr ""
+
+#: src/values.c:179
+#, fuzzy
+msgid "Conjunction"
+msgstr "发音(_P)"
+
+#: src/values.c:180
+#, fuzzy
+msgid "_Preposition"
+msgstr "发音(_P)"
+
+#: src/values.c:181
+msgid "_Interjection"
+msgstr ""
+
+#: src/values.c:182
+msgid "Pronoun"
+msgstr ""
+
+#: src/values.c:183
+msgid "Article"
+msgstr ""
+
+#: src/values.c:184
+#, fuzzy
+msgid "Numeral"
+msgstr "数量"
+
+#: src/values.c:185
+msgid "Imitative"
+msgstr ""
+
+#: src/values.c:186
+msgid "Abbreviation"
+msgstr ""
+
+#: src/values.c:187
+msgid "Phrase"
+msgstr ""
+
+#: src/values.c:193
+#, fuzzy
+msgid "Masculine"
+msgstr "阳性(_M)"
+
+#: src/values.c:194
+msgid "_Feminine"
+msgstr "阴性(_F)"
+
+#: src/values.c:195
+#, fuzzy
+msgid "Neuter"
+msgstr "中性(_N)"
+
+#: src/values.c:196
+msgid "Common"
+msgstr ""
+
+#: src/values.c:197
+msgid "Masc. & Fem."
+msgstr ""
+
+#: src/values.c:198
+msgid "Masc., Fem. & Neut."
+msgstr ""
+
+#: src/values.c:204
+msgid "_Singular"
+msgstr "单数(_S)"
+
+#: src/values.c:205
+#, fuzzy
+msgid "Dual"
+msgstr "双重(_D)"
+
+#: src/values.c:206
+#, fuzzy
+msgid "Plural"
+msgstr "复数(_P)"
+
+#: src/values.c:214 src/values.c:248
+msgid "_None"
+msgstr "无(_N)"
+
+#. taken from fdicts.com
+#: src/values.c:217
+msgid "_Agriculture"
+msgstr ""
+
+#: src/values.c:218
+msgid "Astronomy"
+msgstr ""
+
+#: src/values.c:219
+msgid "Automobile"
+msgstr ""
+
+#: src/values.c:220
+msgid "_Biology"
+msgstr ""
+
+#: src/values.c:221
+msgid "B_otany"
+msgstr ""
+
+#: src/values.c:222
+msgid "_Chemistry"
+msgstr ""
+
+#: src/values.c:223
+msgid "_Electrotechnics"
+msgstr ""
+
+#: src/values.c:224
+#, fuzzy
+msgid "_Finance"
+msgstr "阴性(_F)"
+
+#: src/values.c:225
+#, fuzzy
+msgid "_Geography"
+msgstr "正字(_O)"
+
+#: src/values.c:226
+msgid "Geolog_y"
+msgstr ""
+
+#: src/values.c:227
+msgid "Grammar"
+msgstr ""
+
+#: src/values.c:228
+msgid "_History"
+msgstr ""
+
+#: src/values.c:229
+msgid "_Information Technology"
+msgstr ""
+
+#: src/values.c:230
+msgid "_Law"
+msgstr ""
+
+#: src/values.c:231
+msgid "_Mathematics"
+msgstr ""
+
+#: src/values.c:232
+msgid "Me_dicine"
+msgstr ""
+
+#: src/values.c:233
+msgid "Military"
+msgstr ""
+
+#: src/values.c:234
+msgid "M_usic"
+msgstr ""
+
+#: src/values.c:235
+msgid "Myth_ology"
+msgstr ""
+
+#: src/values.c:236
+msgid "_Physics"
+msgstr ""
+
+#: src/values.c:237
+msgid "Politics"
+msgstr ""
+
+#: src/values.c:238
+msgid "_Religion"
+msgstr ""
+
+#: src/values.c:239
+#, fuzzy
+msgid "_Sexual"
+msgstr "双重(_D)"
+
+#: src/values.c:240
+msgid "Sport"
+msgstr ""
+
+#: src/values.c:241
+msgid "_Technology"
+msgstr ""
+
+#. the word is used in official communication
+#: src/values.c:250
+msgid "_Official"
+msgstr ""
+
+#. same as official, maybe a bit less, suggested by TEI 12.3.5.2
+#: src/values.c:252
+#, fuzzy
+msgid "_Formal"
+msgstr "固定格式(_m)"
+
+#. the word is used to communicate with small children and by them
+#: src/values.c:254
+msgid "Ch_ildren Speech"
+msgstr ""
+
+#. the word is used in informal context, like at home
+#: src/values.c:256
+msgid "_Colloquial"
+msgstr ""
+
+#. the word is used by certain groups of society only,
+#. suggested by TEI 12.3.5.2
+#: src/values.c:259
+msgid "_Slang"
+msgstr ""
+
+#. ithe word is used by uneducated people
+#: src/values.c:261
+#, fuzzy
+msgid "_Vulgar"
+msgstr "单数(_S)"
+
+#. the word should not be used?, suggested by TEI 12.3.5.2
+#: src/values.c:263
+msgid "_Taboo"
+msgstr ""
+
+#. the word is used mainly in ironic remarks?,
+#. suggested by TEI 12.3.5.2
+#: src/values.c:266
+msgid "_Ironic"
+msgstr ""
+
+#. the word is used mainly in funny context eg. jokes?,
+#. suggested by TEI 12.3.5.2
+#: src/values.c:269
+msgid "_Facetious"
+msgstr ""
+
+#: freedict-editor.glade:9
+msgid "FreeDict-Editor"
+msgstr ""
+
+#: freedict-editor.glade:33
+#, fuzzy
+msgid "New TEI Dictionary File"
+msgstr "新建 TEI 文件"
+
+#: freedict-editor.glade:44
+#, fuzzy
+msgid "Open TEI Dictionary File"
+msgstr "拼写词典："
+
+#: freedict-editor.glade:55
+msgid "Save TEI Dictionary File"
+msgstr ""
+
+#: freedict-editor.glade:75
+msgid "Add new Entry"
+msgstr "增加新条目"
+
+#: freedict-editor.glade:76
+#, fuzzy
+msgid "New Entry"
+msgstr "新建条目(_w)"
+
+#: freedict-editor.glade:89 freedict-editor.glade:90
+msgid "Delete Entry"
+msgstr "删除条目"
+
+#: freedict-editor.glade:102
+msgid "Save changes to Entry"
+msgstr "保存对条目的修改"
+
+#: freedict-editor.glade:103
+#, fuzzy
+msgid "Save Entry"
+msgstr "保存条目(_v)"
+
+#: freedict-editor.glade:116 freedict-editor.glade:422
+msgid "Cancel Edit of Entry"
+msgstr "取消对条目的编辑"
+
+#: freedict-editor.glade:117 freedict-editor.glade:423
+msgid "_Cancel Edit"
+msgstr "取消编辑(_C)"
+
+#: freedict-editor.glade:138
+msgid "Stop current XPath-Match"
+msgstr ""
+
+#: freedict-editor.glade:164
+msgid "Se_lect:"
+msgstr "选择(_l)："
+
+#: freedict-editor.glade:184
+msgid "This string will replace the %s in the XPath-Template."
+msgstr "该字符串将会取代 XPath-Template 中的%s。"
+
+#: freedict-editor.glade:213
+#, fuzzy
+msgid "XPath-Template:"
+msgstr "XPath-T_emplate："
+
+#: freedict-editor.glade:232
+msgid ""
+"Enter an XPath expression. It may contain one %s, which will be filled by "
+"the contents of the \"Select\" input field."
+msgstr "输入一个 XPath 表达式。其中可能含有 %s ，会被“选择”输入域中的内容填补"
+
+#: freedict-editor.glade:235
+msgid "/TEI.2/text/body/entry[position()>0 and contains(form/orth,'%s')]"
+msgstr ""
+
+#: freedict-editor.glade:261
+#, fuzzy
+msgid "_File"
+msgstr "阴性(_F)"
+
+#: freedict-editor.glade:268
+msgid "New TEI File"
+msgstr "新建 TEI 文件"
+
+#: freedict-editor.glade:269
+msgid "gtk-new"
+msgstr ""
+
+#: freedict-editor.glade:278
+msgid "gtk-open"
+msgstr ""
+
+#: freedict-editor.glade:287
+msgid "gtk-save"
+msgstr ""
+
+#: freedict-editor.glade:296
+msgid "gtk-save-as"
+msgstr ""
+
+#: freedict-editor.glade:310
+msgid "gtk-quit"
+msgstr ""
+
+#: freedict-editor.glade:323
+msgid "_Edit"
+msgstr ""
+
+#: freedict-editor.glade:330
+msgid "gtk-cut"
+msgstr ""
+
+#: freedict-editor.glade:339
+msgid "gtk-copy"
+msgstr ""
+
+#: freedict-editor.glade:348
+msgid "gtk-paste"
+msgstr ""
+
+#: freedict-editor.glade:357
+msgid "gtk-clear"
+msgstr ""
+
+#: freedict-editor.glade:371
+#, fuzzy
+msgid "Add New Entry"
+msgstr "增加新条目"
+
+#: freedict-editor.glade:372
+msgid "Ne_w Entry"
+msgstr "新建条目(_w)"
+
+#: freedict-editor.glade:388
+msgid "Delete Currently Edited Entry"
+msgstr ""
+
+#: freedict-editor.glade:389
+msgid "_Delete Entry"
+msgstr "删除条目(_D)"
+
+#: freedict-editor.glade:405
+#, fuzzy
+msgid "Save Changes to Entry"
+msgstr "保存对条目的修改"
+
+#: freedict-editor.glade:406
+msgid "Sa_ve Entry"
+msgstr "保存条目(_v)"
+
+#: freedict-editor.glade:444
+msgid "Edit information about the dictionary"
+msgstr "关于此字典的编辑信息"
+
+#: freedict-editor.glade:445
+msgid "_Edit TEI Header"
+msgstr "编辑 TEI 头部"
+
+#: freedict-editor.glade:461
+msgid "_Spell Check..."
+msgstr "拼写检查..."
+
+#: freedict-editor.glade:477
+msgid "Find Entries with missing Information"
+msgstr "查找缺失信息的条目"
+
+#: freedict-editor.glade:478
+msgid "S_anity Checks..."
+msgstr "健全检查(_a)..."
+
+#: freedict-editor.glade:499
+msgid "gtk-preferences"
+msgstr ""
+
+#: freedict-editor.glade:512
+#, fuzzy
+msgid "_View"
+msgstr "新建(_N)"
+
+#: freedict-editor.glade:519
+msgid "Lock _Dockitems"
+msgstr "锁住Dockitems(_D)"
+
+#: freedict-editor.glade:527
+msgid "Toggle whether Labels are shown before Input fields"
+msgstr "输入域前是否显示标记"
+
+#: freedict-editor.glade:528
+msgid "_Labels"
+msgstr "标记(_L)"
+
+#: freedict-editor.glade:537
+msgid "Toggle Display of Toolbar"
+msgstr "是否显示工具栏"
+
+#: freedict-editor.glade:538
+msgid "_Toolbar"
+msgstr "工具栏(_T)"
+
+#: freedict-editor.glade:547
+msgid "Toggle Display of HTML Preview Area"
+msgstr "是否显示HTML预览区域"
+
+#: freedict-editor.glade:548
+msgid "_HTML Preview"
+msgstr "HTML预览"
+
+#: freedict-editor.glade:557
+msgid "Calls xkbprint to display current keyboard layout"
+msgstr "调用 xkbprint 以显示当前的键盘布局"
+
+#: freedict-editor.glade:558
+msgid "_Keyboard Layout"
+msgstr "键盘布局(_K)"
+
+#: freedict-editor.glade:577
+msgid "_Help"
+msgstr ""
+
+#: freedict-editor.glade:584
+msgid "gtk-about"
+msgstr ""
+
+#: freedict-editor.glade:594
+msgid "gtk-help"
+msgstr ""
+
+#: freedict-editor.glade:639
+msgid "Entries that match the select expression"
+msgstr "匹配被选表达式的条目"
+
+#: freedict-editor.glade:656
+msgid "En_tries"
+msgstr "条目(_t)"
+
+#: freedict-editor.glade:691
+#, fuzzy
+msgid ""
+"The XML edit mode is selected or the entry cannot be edited with the "
+"formular."
+msgstr "XML模式用于编辑在固定模式下无法编辑的条目"
+
+#: freedict-editor.glade:702
+msgid "_XML"
+msgstr "XML(_X)"
+
+#: freedict-editor.glade:733
+msgid "Part of _Speech"
+msgstr "词性(_S)"
+
+#: freedict-editor.glade:758
+msgid "_Number"
+msgstr "数词(_N)"
+
+#: freedict-editor.glade:772
+msgid "Number"
+msgstr "数量"
+
+#: freedict-editor.glade:785
+msgid "_Genus"
+msgstr "词性(_G)"
+
+#: freedict-editor.glade:820
+msgid ""
+"Please enter Unicode encoded characters of the International Phonetic "
+"Alphabet"
+msgstr "请输入 Unicode 编码下的国际音标的注音字符"
+
+#: freedict-editor.glade:836
+msgid "_Pronunciation"
+msgstr "发音(_P)"
+
+#: freedict-editor.glade:851
+msgid "How the word is written"
+msgstr "如何写该单词"
+
+#: freedict-editor.glade:865
+msgid "_Orthography"
+msgstr "正字(_O)"
+
+#: freedict-editor.glade:879
+msgid "Headword(s)"
+msgstr "标题字"
+
+#: freedict-editor.glade:916
+msgid "Append new Sense to Entry"
+msgstr "对该条目增加字义"
+
+#: freedict-editor.glade:928
+msgid "Remove last Sense from Entry"
+msgstr "从该条目删除最近的字义"
+
+#: freedict-editor.glade:953
+msgid "Sense(s)"
+msgstr "字义"
+
+#: freedict-editor.glade:972
+msgid "For_m"
+msgstr "固定格式(_m)"
+
+#: freedict-editor.glade:1020
+msgid "Spell Check"
+msgstr "拼写检查"
+
+#: freedict-editor.glade:1038
+msgid "0"
+msgstr ""
+
+#: freedict-editor.glade:1051
+#, fuzzy
+msgid "Replacements made"
+msgstr "替换："
+
+#: freedict-editor.glade:1077
+msgid "_Headword Language"
+msgstr "标题字的语言"
+
+#: freedict-editor.glade:1092
+msgid "_Translation Language"
+msgstr "翻译的语言(_T)"
+
+#: freedict-editor.glade:1116
+msgid "<orth> - Headwords"
+msgstr "<orth> - 标题字"
+
+#: freedict-editor.glade:1131
+msgid "<tr> - Translations"
+msgstr "<tr> - 翻译"
+
+#: freedict-editor.glade:1147
+msgid "<eg><q> - Quotes of Examples"
+msgstr "<eg><q> - 引用的例子"
+
+#: freedict-editor.glade:1162
+msgid "<eg><tr> - Translations of Examples"
+msgstr "<eg><tr> - 翻译的例子"
+
+#: freedict-editor.glade:1178
+msgid "_What to check"
+msgstr ""
+
+#: freedict-editor.glade:1196
+#, fuzzy
+msgid "What language to use for checking the words"
+msgstr "用何种语言来检查单词"
+
+#: freedict-editor.glade:1211
+msgid "Acc_ept Run-Together Words"
+msgstr ""
+
+#: freedict-editor.glade:1227
+#, fuzzy
+msgid "Spelling _Dictionary:"
+msgstr "拼写词典："
+
+#: freedict-editor.glade:1247
+msgid "Aspell _Options"
+msgstr ""
+
+#: freedict-editor.glade:1278
+#, fuzzy
+msgid "Double-Click a suggestion to replace the misspelled word with it"
+msgstr "双击以将拼错的单词按照建议进行替换"
+
+#: freedict-editor.glade:1297
+msgid "Nodes checked"
+msgstr "节点检查"
+
+#: freedict-editor.glade:1311
+#, fuzzy
+msgid "_Suggestions"
+msgstr "建议："
+
+#: freedict-editor.glade:1326
+msgid "The misspelled word will be replaced by this when you click on Replace"
+msgstr ""
+
+#: freedict-editor.glade:1342
+#, fuzzy
+msgid "R_eplacement"
+msgstr "替换："
+
+#: freedict-editor.glade:1358
+msgid "A word that was not found in the spelling dictionary"
+msgstr "在拼写词典中找不到的单词"
+
+#: freedict-editor.glade:1372
+#, fuzzy
+msgid "Misspelled Word"
+msgstr "拼写错误的单词："
+
+#: freedict-editor.glade:1391
+#, fuzzy
+msgid "Replace misspelled word with current Replacement"
+msgstr "将拼错的单词按照建议或者替换方案进行替换"
+
+#: freedict-editor.glade:1416
+msgid "_Replace"
+msgstr "替换(_R)"
+
+#: freedict-editor.glade:1436
+#, fuzzy
+msgid "Replace all occurences of the misspelled word with current Replacement"
+msgstr "将该拼错的单词按照替换方案，或者选中的建议进行替换"
+
+#: freedict-editor.glade:1437
+msgid "Replace _All"
+msgstr "全部替换(_A)"
+
+#: freedict-editor.glade:1451
+#, fuzzy
+msgid "Ignore current occurence of the misspelled word"
+msgstr "忽略一个拼错的单词"
+
+#: freedict-editor.glade:1476
+msgid "_Ignore"
+msgstr "忽略(_I)"
+
+#: freedict-editor.glade:1499
+#, fuzzy
+msgid "Ignore all occurences of the misspelled word"
+msgstr "忽略所有该拼错的单词"
+
+#: freedict-editor.glade:1500
+msgid "I_gnore All"
+msgstr "全部忽略(_g)"
+
+#: freedict-editor.glade:1514
+#, fuzzy
+msgid ""
+"Add misspelled word to the personal GNU aspell word list of this language"
+msgstr "将该单词添加到该语言的个人单词列表中"
+
+#: freedict-editor.glade:1548
+msgid "FreeDict-Editor Preferences"
+msgstr "FreeDict-Editor 首选项"
+
+#: freedict-editor.glade:1583
+msgid "_XSLT-Stylesheet for HTML Preview"
+msgstr "XSLT-Stylesheet的 HTML 预览 (_X)"
+
+#: freedict-editor.glade:1620
+msgid "label57"
+msgstr ""
+
+#: freedict-editor.glade:1634
+msgid "Use Custom Value"
+msgstr "采用定制值"
+
+#: freedict-editor.glade:1653
+msgid "Use Default Value:"
+msgstr "采用默认值："
+
+#: freedict-editor.glade:1670
+msgid "_General"
+msgstr "一般(_G)"
+
+#: freedict-editor.glade:1716
+msgid ""
+"Source Document that justifies inclusion of an entry. Automatically added to "
+"edited entries."
+msgstr ""
+
+#: freedict-editor.glade:1733
+msgid "Add _Source Reference to Edited Entries"
+msgstr "增加被编辑条目的源引用(_S)"
+
+#: freedict-editor.glade:1764
+msgid "editer_default_email_label"
+msgstr ""
+
+#: freedict-editor.glade:1780
+msgid "Use Default Email:"
+msgstr "使用默认的电子邮件："
+
+#: freedict-editor.glade:1799
+msgid "Use Custom Email:"
+msgstr "使用定制的电子邮件："
+
+#: freedict-editor.glade:1818
+msgid "Add _Author/Editor to Edited Entries"
+msgstr "对被编辑条目增加作者/编辑者"
+
+#: freedict-editor.glade:1835
+msgid "template_default_label"
+msgstr ""
+
+#: freedict-editor.glade:1872
+msgid "Use Default:"
+msgstr "使用默认："
+
+#: freedict-editor.glade:1890
+msgid "Use Custom Value:"
+msgstr "使用定制值："
+
+#: freedict-editor.glade:1908
+msgid "Entry _Template"
+msgstr ""
+
+#: freedict-editor.glade:1939
+msgid "editer_default_name_label"
+msgstr ""
+
+#: freedict-editor.glade:1955
+msgid "Use Custom Name:"
+msgstr "使用定制的名字："
+
+#: freedict-editor.glade:1974
+msgid "Use Default Name:"
+msgstr "使用默认的名字："
+
+#: freedict-editor.glade:1992
+msgid "This information is automatically added to every edited entry"
+msgstr "该信息将自动加入到每则被编辑的条目"
+
+#: freedict-editor.glade:2007
+msgid ""
+"POS-, Num-, Gen-, XRef-Types\n"
+"+\n"
+"Descriptions"
+msgstr ""
+
+#: freedict-editor.glade:2025
+msgid "_Entry Editor"
+msgstr "条目编辑者(_E)"
+
+#: freedict-editor.glade:2040
+msgid "_Sanity Checks"
+msgstr "健全检查(_S)"
+
+#: freedict-editor.glade:2053
+msgid "Check Sanity"
+msgstr "检查健全性"
+
+#: freedict-editor.glade:2082
+#, fuzzy
+msgid "About FreeDict-Editor"
+msgstr "FreeDict-Editor 首选项"
+
+#: freedict-editor.glade:2086
+#, fuzzy
+msgid "FreeDict Project, freedict.org, 2005-2007"
+msgstr "FreeDict 项目，freedict.org，2005年"
+
+#: freedict-editor.glade:2088
+msgid "GNU General Public License V2 or any later version"
+msgstr ""
+
+#~ msgid "_Plural"
+#~ msgstr "复数(_P)"
+
+#~ msgid "_Masculine"
+#~ msgstr "阳性(_M)"
+
+#~ msgid "_Neuter"
+#~ msgstr "中性(_N)"
+
+#~ msgid "XML View"
+#~ msgstr "XML 浏览"
+
+#~ msgid "translator_credits"
+#~ msgstr "译者致谢(_c)"
+
+#~ msgid "Select XSLT-Stylesheet"
+#~ msgstr "选择 XSLT-Stylesheet"
+
+#~ msgid "Could not load %s!"
+#~ msgstr "无法载入 %s！"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "无法找到pixmap文件：%s"
+
+#~ msgid "Bonobo Experiment"
+#~ msgstr "Bonobo实验"
+
+#~ msgid "Check:"
+#~ msgstr "检查："
+
+#~ msgid "No Context!"
+#~ msgstr "无上下文！"
+
+#~ msgid "No XPathObject!"
+#~ msgstr "无 XPathObject！"
+
+#, fuzzy
+#~ msgid "Entries: %2.0f"
+#~ msgstr "条目：%2.Of"

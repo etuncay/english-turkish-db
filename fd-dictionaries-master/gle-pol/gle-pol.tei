@@ -1,0 +1,2865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Irish-Polish FreeDict Dictionary</title>
+            <respStmt>
+               <resp>by</resp>
+               <name>Jimmy O'Regan &lt;joregan@gmail.com&gt;</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.1.2</edition>
+         </editionStmt>
+         <extent>280 headwords</extent>
+         <publicationStmt>
+            <publisher>FreeDict</publisher>
+            <availability status="free">
+               <p>Copyright (C) 2007 Jimmy O&apos;Regan, joregan@gmail.com</p>
+               <p>Available under the terms of the <ref target="https://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License ver. 2.0 and any later version</ref>.</p>
+               <p>This program is free software; you can redistribute it and/or modify it under the
+                  terms of the GNU General Public License as published by the Free Software
+                  Foundation; either version 2 of the License, or (at your option) any later
+                  version.</p>
+               <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY
+                  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+                  PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+               <p>You should have received a copy of the GNU General Public License along with this
+                  program; if not, write to the Free Software Foundation, Inc., 59 Temple Place -
+                  Suite 330, Boston, MA 02111-1307, USA.</p>
+            </availability>
+            <pubPlace>
+               <ref target="http://freedict.org/">http://freedict.org/</ref>
+            </pubPlace>
+         </publicationStmt>
+         <notesStmt>
+            <note type="status">too small</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Based on a word list taken from the English-Irish Freedict dictionary.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This dictionary comes to you through nice people making it available for free and for good. It is part of the FreeDict project, <ref target="http://freedict.org/">http://freedict.org/</ref>. This project aims to make translating dictionaries available for free. Your contributions are
+        welcome!</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2017-12-05" who="#humenda" n="0.1.2">
+            <name>Sebastian Humenda</name> update licencing stanza (thanks to Karl Bartel)
+         </change>
+         <change when="2010-11-01">
+            <date>2010-11-01</date>
+            <name>Piotr Bański</name>: Conversion of TEI P4 source into P5 via tools/xsl/freedict_P4toP5.xsl; manual clean-up.</change>
+         <change>
+            <date>2007-09-20</date>
+            <name>Jimmy O'Regan</name>Initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry>
+            <form>
+               <orth>An Aetóip</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Etiopia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Afganastáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Afganistan</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Afraic</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Afryka</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Albáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Albania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Albáinis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Albańczyk</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Albáinis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>albański</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Ailgéir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Algieria</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Alpa</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Alpy</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Amasóin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Amazonka</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Meiriceá</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Ameryka</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Amsterdam</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Amsterdam</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Aindéis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Andy</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Aipiníní</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Apeniny</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an tAibreán</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kwiecień</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Airgintín</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Argentyna</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Áise</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Azja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Aithin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Ateny</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Aigéan Alantach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Atlantyk</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>mí na Lúnasa</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>sierpień</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Astráil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Australia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Ostair</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Austria</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Balcáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bałkany</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhanglaidéis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bangladesz</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Bascais</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>baskijski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Béal Feirste</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Belfast</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bheilg</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Belgia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Beirlín</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Berlin</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bheithil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Betlejem</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Bíobla</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Biblia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhrasaíl</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Brazylia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhriotáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bretania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Briostó</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bristol</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhreatain</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Wielka Brytania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhreatain Mhór</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Wielka Brytania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhruiséil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bruksela</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Búcairist</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bukareszt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Búdaipeist</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Budapeszt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhulgáir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bułgaria</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Burma</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Birma</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhiosáint</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bizancjum</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Caireo</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kair</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Calcúta</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kalkuta</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Camarún</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kamerun</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Ceanada</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kanada</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Gabhar</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Koziorożec</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Ceilteach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Celt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Ceilteach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>celtycki</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSile</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Chile</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSín</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Chiny</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Sínis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>chiński</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Críost</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Chrystus</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Corcaigh</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Cork</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Chorsaic</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Korsyka</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Cósta Ríce</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kostaryka</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Chréit</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kreta</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Cúba</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kuba</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Chipir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Cypr</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Danmhairgis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>duński</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>mí na Nollag</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>grudzień</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Danmhairg</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Dania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Doire</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Derry</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Baile Átha Cliath</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Dublin</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Ollainnis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>holenderski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Cáisc</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Wielkanoc</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Eacuadór</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Ekwador</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Dún Éideann</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Edynburg</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Éigipt</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Egipt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Sasana</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Anglia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Sasanach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Anglik</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Béarla</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>angielski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Aetóip</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Etiopia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Eoraip</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Europa</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Feabhra</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Luty</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>mí na Feabhra</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Luty</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Fhionlainn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Finlandia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Fhrainc</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Francja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Fraincis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>francuski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Aoine</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>piątek</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Gaeilge</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>celtycki</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Gearmánach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Niemiec</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Gearmáinis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>niemiecki</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Ghearmáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Niemcy</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Gána</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Ghana</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Glaschú</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Glasgow</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Dia</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Bóg</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Ghréig</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Grecja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Ghraonlainn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Grenlandia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Guatemala</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Gwatemala</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Eabhrais</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hebrajski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Heilsincí</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Helsinki</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Ollainn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Holandia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Ísiltír</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Holandia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Ungáir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Węgry</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Íoslainn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Islandia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An India</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Indie</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Indinéis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Indonezja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Iaráin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Iran</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Iaráic</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Irak</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Éire</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Irlandia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Iosrael</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Izrael</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Iostanbúl</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Stambuł</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Iodáilis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>włoski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Iodáil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Włochy</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Iamáice</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Jamajka</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Eanáir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>styczeń</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSeapáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Japonia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Seapáinis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>japoński</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Iarúsailéim</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Jerozolima</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Iordáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Jordania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Iúil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>lipiec</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Meitheamh</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>czerwiec</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Chéinia</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kenia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Ciarraí</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kerry</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Cill Dara</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kildare</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Chóiré</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Korea</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Cuáit</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kuwejt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Laidin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>łaciński</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Libia</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Libia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Luimneach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Limerick</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Liospóin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Lizbona</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Learpholl</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Liverpool</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Londain</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Londyn</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Doire</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Londonderry</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Lucsamburg</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Luksemburg</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Madagascar</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Madagaskar</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Maidrid</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Madryt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Málta</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Malta</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Manchain</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Manchester</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Márta</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>marzec</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Mars</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Mars</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Bhealtaine</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>maj</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Meicsiceo</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Meksyk</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Monacó</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Monako</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Luan</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>poniedziałek</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Mhonghóil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Mongolia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Maracó</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Maroko</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Moscó</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Moskwa</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Mósaimbíc</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Mozambik</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Neipeál</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Nepal</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Neiptiún</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>neptun</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Talamh an Éisc</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Nowa Fundlandia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Nua-Eabhrac</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Nowy Jork</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Nua-Shéalainn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Nowa Zelandia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Nicearagua</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Nikaragua</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Nígir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Niger</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Nigéir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Nigeria</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Níl</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Nil</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>tuaisceart</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>północ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Iorua</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Norwegia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>mí na Samhna</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>listopad</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Deireadh Fómhair</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>październik</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Osló</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Oslo</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Aigéan Ciúin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Ocean Spokojny</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Phacastáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Pakistan</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Phalaistín</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Palestyna</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Paragua</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Paragwaj</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Páras</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Paryż</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Iaráin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Persja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Peiriú</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Peru</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Na hOileáin Fhilipíneacha</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Filipiny</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Plútón</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pluton</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Pholainn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Polska</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Portaingéilis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>portugalski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Prág</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Praga</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>ball de Chumann na gCarad</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kwaker</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Caecar</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Kwaker</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Réin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Ren</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Rómhánach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>rzymski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Rómáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Rumunia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Róimh</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Rzym</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Rúis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Rosja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Rúisis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>rosyjski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSairdín</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Sardynia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Satharn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>sobota</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Araib Shádach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Arabia Saudyjska</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Críoch Lochlann</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Skandynawia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Albain</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Szkotcja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Meán Fhómhair</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wrzesień</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSibéir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Syberia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSicil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Sycylia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Singeapór</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Singapur</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Sóifia</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Sofia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Afraic Theas</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Republika Południowej Afryki</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Spáinn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Hiszpania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Spáinnis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hiszpański</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Stócólm</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Sztokholm</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSúdáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Sudan</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Domhnach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>niedziela</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSualainn</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Szwecja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Sualainnis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>szwedzki</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Eilbhéis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Szwajcaria</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSiria</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Syria</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Tansáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Tanzania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Tasmáin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Tasmania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Háig</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Haga</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Déardaoin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>czwartek</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Tibéid</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Tybet</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Tríonóid</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Trójca</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Mháirt</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wtorek</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Túinéis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Tunezja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Tuirc</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Turcja</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Stáit Aontaithe Mheiriceá</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Stany Zjednoczone</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Uganda</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Uganda</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Úránas</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>uran</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Uragua</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Urugwaj</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Cathair na Vatacáine</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Watykan</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Veiniséala</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Wenezuela</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Vín</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Wiedeń</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Vítneam</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Wietnam</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>volta</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wolt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>im</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>masło</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>grá</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>miłość</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An Bhreatain Bheag</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Walia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Vársá</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Warszawa</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>an Chéadaoin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>środa</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Breatnais</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>walijski</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>iarthar</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>zachód</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Éimin</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Jemen</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>Eabhrac</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>York</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSaimbia</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Zambia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSáír</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Zair</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>An tSiombáib</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Zimbabwe</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>ban-ab</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ksieni</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>máthairab</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ksieni</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>mainistir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>opactwo</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>ab</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>opat</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>bolg</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>brzuch</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>tarr</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>odwłok</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>cónaí</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>miejsce zamieszkania</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>lastuas</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>nad</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>acadúil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>akademicki</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>acadamh</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>akademia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>glac</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>dostawać</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>taisme</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wypadek</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>timpiste</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wypadek</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>tionóisc</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wypadek</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>cuntas</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>konto</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>creid</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wierzyć</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>creidmheas</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kredyt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>acra</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>akr</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>cleasaí</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>akrobata</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>slán</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>do widzenia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>déanta</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>zrobiony</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>ceannaigh</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kupić</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>ag ceannach</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kupować</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>déan</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>robić</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>obair</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>praca</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>thar</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>przez</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>beannacht</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>błogosławieństwo</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>bean</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kobieta</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>mná</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kobiety</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>fear</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mężczyzna</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>fir</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mężczyzny</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>bainne</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mleko</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>arán</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>chleb</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>cáis</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ser</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>feoil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mięso</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>leithreas</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>toaleta</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>naíonán</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>niemowlę</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>leanbh</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>dziecko</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>páiste</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>dziecko</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>máithair</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>matka</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>athair</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ojciec</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>mama</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mam</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>tata</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>daid</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>snáthádan</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kosarz</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>damhán alla</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pająk</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>seilide</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ślimak</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>madra</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pies</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>cat</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kot</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>hamstar</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>chomik</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>bó</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>krowa</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>caora</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>owca</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>bord</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>stół</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>doras</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>drzwi</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>fuinneog</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>okno</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>béal</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>usta</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>súil</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>oko</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>leabhar</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>książka</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form>
+               <orth>sagart</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ksiądz</quote>
+               </cit>
+            </sense>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,6992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title>English-Serbian FreeDict Dictionary</title>
+            <respStmt>
+               <!-- for the freedict database -->
+               <resp>Maintainer</resp>
+               <name>[up for grabs]</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.1.3</edition>
+         </editionStmt>
+         <extent>590 headwords</extent>
+         <publicationStmt>
+            <publisher>FreeDict</publisher>
+            <availability status="free">
+               <p>Copyright (C) 1999-2017 by various authors listed below.</p>
+               <p>Available under the terms of the <ref target="https://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License ver. 2.0 and any later version</ref>.</p>
+               <p>This program is free software; you can redistribute it and/or modify it under the
+                  terms of the GNU General Public License as published by the Free Software
+                  Foundation; either version 2 of the License, or (at your option) any later
+                  version.</p>
+               <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY
+                  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+                  PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+               <p>You should have received a copy of the GNU General Public License along with this
+                  program; if not, write to the Free Software Foundation, Inc., 59 Temple Place -
+                  Suite 330, Boston, MA 02111-1307, USA.</p>
+            </availability>
+            <pubPlace>
+               <ref target="http://freedict.org/">http://freedict.org/</ref>
+            </pubPlace>
+            <idno type="svn">$Id$</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="status">too small</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Home: <ptr target="http://www.travlang.com/"/>
+            </p>
+            <p>This Database was generated from Ergane.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This dictionary comes to you through nice people making it available for free and for
+               good. It is part of the FreeDict project, <ref target="http://freedict.org/"
+                  >http://freedict.org/</ref>. This project aims to make translating dictionaries
+               available for free. Your contributions are welcome!</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">
+               <idno type="iso639-2">en</idno>
+               <idno type="iso639-3">eng</idno>
+               <name xml:lang="en">English</name>
+               <name xml:lang="sr">енглески</name>
+            </language>
+            <language ident="sr">
+               <idno type="iso639-2">sr</idno>
+               <idno type="iso639-3">srp</idno>
+               <name xml:lang="en">Serbian</name>
+               <name xml:lang="sr">српски</name>
+            </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-12-03" who="#humenda" n="0.1.3">
+             <name>Sebastian Humenda</name> update licence stanza (thanks to Karl Bartel)
+         </change>
+         <change when="2010-12-09">
+            <date>2010-12-09</date>
+            <name>Piotr Bański</name>: Added @xml:lang attributes and profileDesc/langUsage.</change>
+         <change when="2010-12-01">
+            <date>2010-12-01</date>
+            <name>Piotr Bański</name>: Database name changed from eng-scr to eng.srp. I assume this
+            dictionary to be close in nature to the previous scr-eng (current srp-eng) in that the
+            latter contained Serbian with Montenegrin dialectal additions (thanks to Dr. Jerzy Molas
+            of the University of Warsaw for his remarks on scr-eng, which I assume to hold for
+            eng-scr, because they have the same origin in Ergane). TODO: identify the Montenegrin
+            additions and mark them with &lt;usg> elements.</change>
+         <change when="2010-11-01">
+            <date>2010-11-01</date>
+            <name>Piotr Bański</name>: Conversion of TEI P4 source into P5 via
+            tools/xsl/freedict_P4toP5.xsl; manual clean-up.</change>
+         <change>
+            <date>2005-02-11</date>
+            <name>Michael Bunk</name>Converted file to TEI P4</change>
+         <change>
+            <date>2000-04-27</date>
+            <name>Horst Eyermann</name>Database was converted to TEI format and checked into CVS</change>
+         <change>
+            <date>2000-01-10</date>
+            <name>Horst Eyermann</name>This Database was generated from ergane,
+            http://www.travlang.com - Thanks!</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body xml:lang="sr">
+         <entry>
+            <form xml:lang="en">
+               <orth>April</orth>
+               <pron>eiprəl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>април</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>травањ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>August</orth>
+               <pron>ɔːgəst</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>август</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>коловоз</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Croat</orth>
+               <pron>krouit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Хрват</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Croatia</orth>
+               <pron>krouʃə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Хрватска</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Czech</orth>
+               <pron>tʃek</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Чех</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>December</orth>
+               <pron>disembər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>децембар</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>просинац</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>England</orth>
+               <pron>iŋglənd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Енглеска</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>English</orth>
+               <pron>iŋgliʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Енглескиња</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Englishman</orth>
+               <pron>iŋgliʃmən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Енглез</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Englishwoman</orth>
+               <pron>iŋgliʃwumən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Енглескиња</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>February</orth>
+               <pron>febjeəriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>фебруар</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>вељача</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Frenchman</orth>
+               <pron>frentʃmən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Француз</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Frenchwoman</orth>
+               <pron>frentʃwumən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Францускиња</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Friday</orth>
+               <pron>fraidiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>петак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Germany</orth>
+               <pron>dʒəːməniː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Немачка</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>Њемачка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>God</orth>
+               <pron>gɔd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Бог</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Gypsy</orth>
+               <pron>dʒipsiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Циганин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>January</orth>
+               <pron>dʒænjuriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>јануар</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>сијечањ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>July</orth>
+               <pron>dʒuːlai</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>јул</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>српањ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>June</orth>
+               <pron>dʒuːn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>јун</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>лиспањ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>March</orth>
+               <pron>mɑːtʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>март</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ожујак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>May</orth>
+               <pron>mei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>мај</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>свибањ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Miss</orth>
+               <pron>mis</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>госпођица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Mister</orth>
+               <pron>mistər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>господин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Monday</orth>
+               <pron>mʌndiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>понедељак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Mr</orth>
+               <pron>mr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>господин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Mrs</orth>
+               <pron>mz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>госпођа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>November</orth>
+               <pron>nouvembər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>новембар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>October</orth>
+               <pron>ɔktoubər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>листопад</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>октобар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Roman</orth>
+               <pron>roumən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>роман</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Sabbath</orth>
+               <pron>sæbəθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>субота</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Sassenach</orth>
+               <pron>sæsənæk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Енглез</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Saturday</orth>
+               <pron>sætədiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>субота</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>September</orth>
+               <pron>septembər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рујан</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>септембар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Serb</orth>
+               <pron>səb</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Србин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Sunday</orth>
+               <pron>sʌndiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>недеља</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>неђеља</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Thursday</orth>
+               <pron>θəːzdei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>четвртак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Tuesday</orth>
+               <pron>tjuːzdei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>уторак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Wednesday</orth>
+               <pron>wenzdei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>среда</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>сриједа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Yugoslav</orth>
+               <pron>juːgousleiv</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Југославен</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>Југословен</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Yugoslavia</orth>
+               <pron>juːgouslɑːviə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Југославија</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>Yugoslavian</orth>
+               <pron>juːgouslɑːviən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Југославен</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>Југословен</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>a</orth>
+               <pron>ə</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>у</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>когод</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>неко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>aberration</orth>
+               <pron>æbəreiʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>погрешка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>able</orth>
+               <pron>eibl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>способан</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>abroad</orth>
+               <pron>əbrɔːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>иностранство</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>absent</orth>
+               <pron>æbsənt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>отсутан</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>academic</orth>
+               <pron>ækədemik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>студент</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>accede</orth>
+               <pron>əksiːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сагласитисе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>accept</orth>
+               <pron>æksept</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>прихватити</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>accident</orth>
+               <pron>æksidənt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>незгода</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>accompany</orth>
+               <pron>əkʌmpəniː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>пратити</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>accordion</orth>
+               <pron>əkɔːdiən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>хармоника</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>account</orth>
+               <pron>əkaunt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рачун</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ache</orth>
+               <pron>eik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бол</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>achievement</orth>
+               <pron>ətʃiːvmənt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>успех</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>успјех</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>across</orth>
+               <pron>əkrɔs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>преко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>across</orth>
+               <pron>əkrɔsfrɔm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>против</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>actor</orth>
+               <pron>æktər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>глумац</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>actress</orth>
+               <pron>æktris</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>глумица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ad</orth>
+               <pron>əd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>оглас</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>address</orth>
+               <pron>ədres</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>адреса</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>adieu</orth>
+               <pron>ədjuː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>збогом</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ado</orth>
+               <pron>ədou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>галама</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>adversary</orth>
+               <pron>ædvəsəriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>непријатељ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>advertisement</orth>
+               <pron>ədvəːtismənt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>оглас</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>advice</orth>
+               <pron>ədvais</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>савет</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>савјет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>advocate</orth>
+               <pron>ædvəkeit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>адвокат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>aeroplane</orth>
+               <pron>ɛərəplein</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>аероплан</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>авион</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>affair</orth>
+               <pron>əfɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ствар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>affection</orth>
+               <pron>əfekʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>љубав</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>afoot</orth>
+               <pron>əfut</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>песма</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>пешице</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>пјесма</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>пјешице</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>afresh</orth>
+               <pron>əfreʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>опет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>after</orth>
+               <pron>ɑːftər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>после</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>afternoon</orth>
+               <pron>ɑːftənuːn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>поподне</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>again</orth>
+               <pron>əgein</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>опет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>against</orth>
+               <pron>əgenst</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>против</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>age</orth>
+               <pron>eidʒ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>доба</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>agree</orth>
+               <pron>əgriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сагласитисе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>aim</orth>
+               <pron>eim</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>циљ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>air</orth>
+               <pron>ɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ваздух</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>aircraft</orth>
+               <pron>ɛəkrɑːft</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>авион</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>airplane</orth>
+               <pron>ɛəplein</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>аероплан</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>авион</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>airport</orth>
+               <pron>ɛəpɔːt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>аеродром</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ale</orth>
+               <pron>l</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>пиво</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>all</orth>
+               <pron>l</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>све</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>all</orth>
+               <pron>ləbaut</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>свуда</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>all</orth>
+               <pron>lɔfəsʌdn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ођедном</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>all</orth>
+               <pron>louvərəgein</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>опет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>all</orth>
+               <pron>lð</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сви</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>alone</orth>
+               <pron>əloun</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сам</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>already</orth>
+               <pron>ɔːlrediː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>веђ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>also</orth>
+               <pron>ælsou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>такоде</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>although</orth>
+               <pron>ɔːlthau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>иако</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>altitude</orth>
+               <pron>æltitjuːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>висина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>altogether</orth>
+               <pron>ɔːltədʒeðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>све</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>always</orth>
+               <pron>ɔːlweiz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>увек</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>увијек</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>among</orth>
+               <pron>əmʌŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>између</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>and</orth>
+               <pron>ænd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>и</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>anew</orth>
+               <pron>ənjuː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>опет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>any</orth>
+               <pron>æniː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>когод</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>неко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>anybody</orth>
+               <pron>enibɔdiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>когод</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>неко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>anything</orth>
+               <pron>eniθiŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нешто</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>anywhere</orth>
+               <pron>æniwɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>негде</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>негђе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>appellation</orth>
+               <pron>æpəleiʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>име</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>apple</orth>
+               <pron>æpl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>јабука</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>arm</orth>
+               <pron>ɑːm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рука</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>army</orth>
+               <pron>ɑːmiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>војска</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>as</orth>
+               <pron>əz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>како</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>at</orth>
+               <pron>eit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>к</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>at</orth>
+               <pron>eitprizent</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сад</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>сада</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>at</orth>
+               <pron>eitðætpleis</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>тамо</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ту</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>aunt</orth>
+               <pron>ɑːnt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>тетка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>back</orth>
+               <pron>bæk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>леђа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bag</orth>
+               <pron>bæg</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>торба</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bairn</orth>
+               <pron>bɛən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дијете</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>дете</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>balcony</orth>
+               <pron>bælkəniː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>балкон</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>barber</orth>
+               <pron>bɑːbər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>берберин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>barrister</orth>
+               <pron>bæristər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>адвокат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bathroom</orth>
+               <pron>bɑːθrum</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>купатило</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>be</orth>
+               <pron>b</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бити</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>beam</orth>
+               <pron>biːm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радио</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bed</orth>
+               <pron>bd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кревет</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>постеља</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>beefsteak</orth>
+               <pron>biːfsteik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бифтек</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>beer</orth>
+               <pron>biər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>пиво</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>behind</orth>
+               <pron>biːhaind</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>после</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>below</orth>
+               <pron>bilou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>под</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>beneath</orth>
+               <pron>benəːθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>под</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>between</orth>
+               <pron>bitwiːn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>између</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>beyond</orth>
+               <pron>beiənd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>преко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bit</orth>
+               <pron>bit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>комад</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bloom</orth>
+               <pron>bluːm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>цвијет</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>цвет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bomb</orth>
+               <pron>bɔm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бомба</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bone</orth>
+               <pron>boun</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кост</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>book</orth>
+               <pron>buk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>књига</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>both</orth>
+               <pron>bɔθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обоје</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bough</orth>
+               <pron>bau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>грана</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>boutique</orth>
+               <pron>buːtiːk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дућан</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>радња</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>box</orth>
+               <pron>bɔks</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ковчег</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>boy</orth>
+               <pron>bɔi</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>слуга</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>branch</orth>
+               <pron>brɑːntʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>грана</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bread</orth>
+               <pron>bred</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>хлеб</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>хљеб</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>breakfast</orth>
+               <pron>brekfəst</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>доручак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bridge</orth>
+               <pron>bridʒ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>мост</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>brother</orth>
+               <pron>brʌðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>брат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>brow</orth>
+               <pron>brau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обрва</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>building</orth>
+               <pron>bildiŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>зграда</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bureau</orth>
+               <pron>bjeərou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>канцеларија</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>business</orth>
+               <pron>biznəs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ствар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>but</orth>
+               <pron>bʌt</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>али</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>већ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>button</orth>
+               <pron>bʌtn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дугме</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>bye</orth>
+               <pron>biː</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>збогом</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>довиђења</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>by</orth>
+               <pron>biːnau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>веђ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cabin</orth>
+               <pron>kæbin</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шупа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cabinet</orth>
+               <pron>kæbinət</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ормар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>caf</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кафана</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>capable</orth>
+               <pron>keipəbl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>способан</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>car</orth>
+               <pron>kɑːr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>аутомобил</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>card</orth>
+               <pron>kɑːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>карта</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>case</orth>
+               <pron>keis</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ствар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cat</orth>
+               <pron>kæt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>мачка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>chair</orth>
+               <pron>tʃɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>столица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>chamber</orth>
+               <pron>tʃeimbər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>соба</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>chauffeur</orth>
+               <pron>ʃoufər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шофер</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>check</orth>
+               <pron>tʃek</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>чек</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cheese</orth>
+               <pron>tʃiːz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сир</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cheque</orth>
+               <pron>tʃek</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>чек</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>chest</orth>
+               <pron>tʃest</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ковчег</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>child</orth>
+               <pron>tʃaild</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дијете</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>дете</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>church</orth>
+               <pron>tʃəːtʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>црква</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cigarette</orth>
+               <pron>sigəret</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>цигарета</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cinema</orth>
+               <pron>sinəmə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>биоскоп</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>city</orth>
+               <pron>sitiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>град</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>варош</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>class</orth>
+               <pron>klɑːs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>клас</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>climate</orth>
+               <pron>klaimət</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>клима</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>closet</orth>
+               <pron>klɔzit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ормар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>coast</orth>
+               <pron>koust</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обала</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>coffee</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кафана</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>coffee</orth>
+               <pron>kɔfiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кафа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>colour</orth>
+               <pron>kʌlər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>боја</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>compartment</orth>
+               <pron>kəmpɑːtmənt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>купе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>concert</orth>
+               <pron>kənsəːt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>концерат</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>концерт</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>consent</orth>
+               <pron>kənsent</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сагласитисе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>consul</orth>
+               <pron>kənsl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>конзул</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>couch</orth>
+               <pron>kautʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>диван</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>counsel</orth>
+               <pron>kaunsl</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>адвокат</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>савет</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>савјет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>coup</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>купе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>courage</orth>
+               <pron>kʌridʒ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>храброст</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cup</orth>
+               <pron>kʌp</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шоља</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cupboard</orth>
+               <pron>kʌbəd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ормар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>cushion</orth>
+               <pron>kuʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>јастук</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>custom</orth>
+               <pron>kʌstəm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обичај</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>danger</orth>
+               <pron>deindʒər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>опасност</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>darkness</orth>
+               <pron>dɑːknəs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>мрак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>date</orth>
+               <pron>deit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>датум</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>daughter</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>снаха</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>daughter</orth>
+               <pron>dɔːtər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кћерка</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>кћи</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>day</orth>
+               <pron>dei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дан</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>devil</orth>
+               <pron>devəl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>враг</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>dictionary</orth>
+               <pron>dikʃənriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>речник</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ријечник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>din</orth>
+               <pron>din</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>галама</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>divan</orth>
+               <pron>divæn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>диван</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>doctor</orth>
+               <pron>dɔktər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>лекар</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>љекар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>dog</orth>
+               <pron>dɔg</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>пас</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>door</orth>
+               <pron>dɔːr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>врата</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>driver</orth>
+               <pron>drivər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шофер</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>duty</orth>
+               <pron>djuːtiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дужност</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>dye</orth>
+               <pron>diː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>боја</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>each</orth>
+               <pron>iːtʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сви</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ear</orth>
+               <pron>iər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>уво</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ухо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>earth</orth>
+               <pron>əːθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>земља</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>eight</orth>
+               <pron>eit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>осам</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>enemy</orth>
+               <pron>enəmiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>непријатељ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>engine</orth>
+               <pron>endʒin</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>машина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>error</orth>
+               <pron>erər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>погрешка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>evening</orth>
+               <pron>iːvniŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>вече</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ever</orth>
+               <pron>evər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>увек</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>увијек</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>every</orth>
+               <pron>evriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сви</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>everybody</orth>
+               <pron>evribɔdiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сви</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>everything</orth>
+               <pron>evriθiŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>све</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>everywhere</orth>
+               <pron>evriwɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>свуда</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>exactly</orth>
+               <pron>igzætliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>баш</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>eye</orth>
+               <pron>iː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>око</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>eyebrow</orth>
+               <pron>aibrau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обрва</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>face</orth>
+               <pron>feis</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>лице</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>family</orth>
+               <pron>fæməliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>породица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>farewell</orth>
+               <pron>fɛəwel</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>збогом</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>fast</orth>
+               <pron>fɑːst</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>брзо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>father</orth>
+               <pron>fɑːðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>отац</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>feather</orth>
+               <pron>feðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>перо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>female</orth>
+               <pron>fiːmeilstjuːdnt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>студенткиња</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>field</orth>
+               <pron>fiːld</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>поље</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>fig</orth>
+               <pron>fig</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>смоква</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>finger</orth>
+               <pron>fiŋgər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>прст</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>fish</orth>
+               <pron>fiʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>риба</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>five</orth>
+               <pron>faiv</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>пет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>floor</orth>
+               <pron>flɔːr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>под</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>flower</orth>
+               <pron>flauər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>цвијет</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>цвет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>fog</orth>
+               <pron>fɔg</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>магла</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>foot</orth>
+               <pron>fut</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нога</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>foreigner</orth>
+               <pron>fɔrənər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>странац</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>forest</orth>
+               <pron>fɔrist</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шума</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>four</orth>
+               <pron>fɔːr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>четири</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>frequently</orth>
+               <pron>frikwentliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>често</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>friend</orth>
+               <pron>frend</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>пријатељица</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>пријатељ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>from</orth>
+               <pron>frɔm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>из</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>fruit</orth>
+               <pron>fruːt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>воће</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>garden</orth>
+               <pron>gɑːdn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>башта</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>врт</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>gentleman</orth>
+               <pron>dʒentlmən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>господин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>girl</orth>
+               <pron>gəːl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>девојка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>gladness</orth>
+               <pron>glædnəs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радост</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>glove</orth>
+               <pron>glʌv</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рукавица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>goal</orth>
+               <pron>goul</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>циљ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>goodbye</orth>
+               <pron>gudbai</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>збогом</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>довиђења</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>grandmother</orth>
+               <pron>grænmʌðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>баба</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>grass</orth>
+               <pron>grɑːs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>трава</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>guest</orth>
+               <pron>gest</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>гост</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>habit</orth>
+               <pron>hæbit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обичај</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hairdresser</orth>
+               <pron>hɛədresər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>берберин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hammer</orth>
+               <pron>hæmər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>чекић</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hand</orth>
+               <pron>hænd</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>радник</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>рука</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hat</orth>
+               <pron>heit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шешир</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>he</orth>
+               <pron>h</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>он</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>head</orth>
+               <pron>hed</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>глава</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>heart</orth>
+               <pron>hɑːt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>срце</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>heat</orth>
+               <pron>hiːt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>врућина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>heaven</orth>
+               <pron>hevn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>небо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>height</orth>
+               <pron>hait</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>висина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>her</orth>
+               <pron>hər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>она</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>herb</orth>
+               <pron>həːb</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>трава</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hero</orth>
+               <pron>hiərou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>јунак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hill</orth>
+               <pron>hil</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>брег</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>бријег</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>him</orth>
+               <pron>him</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>он</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>honey</orth>
+               <pron>hʌniː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>мед</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>horse</orth>
+               <pron>hɔːs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>коњ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hostel</orth>
+               <pron>hɔstl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>гостионица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hotel</orth>
+               <pron>houtel</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>хотел</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hour</orth>
+               <pron>auər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>house</orth>
+               <pron>haus</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кућа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>house</orth>
+               <pron>hausɔfwəːʃip</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>црква</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>how</orth>
+               <pron>hau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>како</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>however</orth>
+               <pron>hauwevər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>већ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>husband</orth>
+               <pron>hʌzbənd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>муж</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>hut</orth>
+               <pron>hʌt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шупа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ice</orth>
+               <pron>ais</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>лед</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>if</orth>
+               <pron>aif</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ако</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>in</orth>
+               <pron>in</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>у</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>infant</orth>
+               <pron>infənt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дијете</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>дете</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>injury</orth>
+               <pron>indʒəriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рана</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>inn</orth>
+               <pron>in</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>гостионица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>inside</orth>
+               <pron>insaid</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>у</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>instructor</orth>
+               <pron>instrʌktər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>учитељ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>intercessor</orth>
+               <pron>intəsesər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>адвокат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>into</orth>
+               <pron>intə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>у</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>in</orth>
+               <pron>inikstʃeindʒfər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>против</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>in</orth>
+               <pron>inwɔtwei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>како</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>it</orth>
+               <pron>it</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>оно</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>job</orth>
+               <pron>dʒɔb</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рад</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>joy</orth>
+               <pron>dʒɔi</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радост</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>judge</orth>
+               <pron>dʒʌdʒ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>судац</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>kidney</orth>
+               <pron>kidniː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бубрег</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>kilo</orth>
+               <pron>kiːlou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>килограм</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>king</orth>
+               <pron>kiŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>краљ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>kitchen</orth>
+               <pron>kitʃin</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кухиња</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>knee</orth>
+               <pron>niː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>колено</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>кољено</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>knife</orth>
+               <pron>naif</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нож</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>laborer</orth>
+               <pron>ləbɔːrər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>labourer</orth>
+               <pron>leibərər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lady</orth>
+               <pron>leidiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>госпођа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lake</orth>
+               <pron>leik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>језеро</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lamb</orth>
+               <pron>læm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>јагње</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>land</orth>
+               <pron>lænd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>земља</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>language</orth>
+               <pron>læŋgwidʒ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>језик</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lass</orth>
+               <pron>læs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>девојка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lawyer</orth>
+               <pron>lɔːjər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>адвокат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>leg</orth>
+               <pron>leg</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нога</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>letter</orth>
+               <pron>letər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>писмо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>library</orth>
+               <pron>laibrəriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>библиотека</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>life</orth>
+               <pron>laif</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>живот</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>like</orth>
+               <pron>laik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>како</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>likewise</orth>
+               <pron>laikjuːiːz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>такоде</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lip</orth>
+               <pron>lip</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>усна</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>list</orth>
+               <pron>list</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>списак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>liter</orth>
+               <pron>litər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>литар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>litre</orth>
+               <pron>liːtər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>литар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>loaf</orth>
+               <pron>louf</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>хлеб</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>хљеб</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>location</orth>
+               <pron>loukeiʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>место</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>мјесто</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>loch</orth>
+               <pron>lɔk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>језеро</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lock</orth>
+               <pron>lɔk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кључ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lord</orth>
+               <pron>lɔːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>господин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>love</orth>
+               <pron>lʌv</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>љубав</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>lump</orth>
+               <pron>lʌmp</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>комад</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>machine</orth>
+               <pron>məʃiːn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>машина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>madam</orth>
+               <pron>mædəm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>госпођа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>map</orth>
+               <pron>meip</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>карта</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>matter</orth>
+               <pron>mætər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ствар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>maybe</orth>
+               <pron>meiib</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>можда</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>mayhap</orth>
+               <pron>meiieip</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>можда</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>meat</orth>
+               <pron>miːt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>месо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>menu</orth>
+               <pron>menjuː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>карта</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>metre</orth>
+               <pron>miːtər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>метар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>mile</orth>
+               <pron>mail</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>миља</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>minister</orth>
+               <pron>ministər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>министар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>mist</orth>
+               <pron>mist</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>магла</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>mistake</orth>
+               <pron>misteik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>погрешка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>mitten</orth>
+               <pron>mitn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рукавица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>month</orth>
+               <pron>mʌnθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>месец</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>мјесец</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>moon</orth>
+               <pron>muːn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>месец</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>мјесец</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>mother</orth>
+               <pron>mʌðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>мајка</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>мати</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>mountain</orth>
+               <pron>mauntn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>планина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>movie</orth>
+               <pron>muːviːθiətər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>биоскоп</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>murk</orth>
+               <pron>məːk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>мрак</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>museum</orth>
+               <pron>mjuːziəm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>музеј</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>music</orth>
+               <pron>mjuːzik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>музика</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>name</orth>
+               <pron>neim</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>име</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>neither</orth>
+               <pron>naiðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нико</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>never</orth>
+               <pron>nevər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>никад</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>никада</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>nevertheless</orth>
+               <pron>nivəːθləs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>већ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>night</orth>
+               <pron>nait</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ноћ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>nine</orth>
+               <pron>nain</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>девет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>no</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нико</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>no</orth>
+               <pron>nou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>не</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>nobody</orth>
+               <pron>noubədiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нико</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>noise</orth>
+               <pron>nɔiz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>галама</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>none</orth>
+               <pron>nɔn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нико</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>nose</orth>
+               <pron>nouz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нос</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>not</orth>
+               <pron>nout</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>не</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>nothing</orth>
+               <pron>nʌθiŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ништа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>novel</orth>
+               <pron>nɔvəl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>роман</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>now</orth>
+               <pron>nau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сад</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>сада</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>nowhere</orth>
+               <pron>nauwɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нигде</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>нигђе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>obligation</orth>
+               <pron>ɔbligeiʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дужност</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>office</orth>
+               <pron>ɔfis</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>канцеларија</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>often</orth>
+               <pron>ɔfn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>често</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>on</orth>
+               <pron>wʌn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>у</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>once</orth>
+               <pron>wʌnsmɔːr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>опет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>one</orth>
+               <pron>wʌn</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>когод</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>неко</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>један</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>једна</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>једно</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>only</orth>
+               <pron>ounliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сам</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>on</orth>
+               <pron>wʌnfut</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>песма</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>пешице</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>пјесма</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>пјешице</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>on</orth>
+               <pron>wʌnðʌðərsaidɔf</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>преко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>operative</orth>
+               <pron>ɔpərətiv</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>opposed</orth>
+               <pron>əpouzdtou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>против</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>opposite</orth>
+               <pron>ɔpəzit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>против</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>or</orth>
+               <pron>ər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>или</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ordinarily</orth>
+               <pron>ɔːdinəriliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обично</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>out</orth>
+               <pron>autɔf</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>из</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>over</orth>
+               <pron>ouvərðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>тамо</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ту</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>o</orth>
+               <pron>əklɔk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>page</orth>
+               <pron>pædʒ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>страница</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>pain</orth>
+               <pron>pein</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бол</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>painter</orth>
+               <pron>peintər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сликар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>painting</orth>
+               <pron>peintiŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>слика</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>pair</orth>
+               <pron>pɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>двоје</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>пар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>paper</orth>
+               <pron>peipər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>хартија</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>park</orth>
+               <pron>pɑːk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>парк</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>passport</orth>
+               <pron>pɑːspɔːt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>пасош</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>pate</orth>
+               <pron>peit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>глава</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>path</orth>
+               <pron>pɑːθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>стаза</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>pawn</orth>
+               <pron>pɔːn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>војник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>peace</orth>
+               <pron>piːs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>мир</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>peach</orth>
+               <pron>piːtʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бресква</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>pencil</orth>
+               <pron>pensl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>оловка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>people</orth>
+               <pron>piːpl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>људи</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>per</orth>
+               <pron>pər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>у</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>perchance</orth>
+               <pron>pəːtʃəns</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>можда</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>perhaps</orth>
+               <pron>pəhæps</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>можда</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>peril</orth>
+               <pron>perəl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>опасност</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>physician</orth>
+               <pron>fiziʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>лекар</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>љекар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>picture</orth>
+               <pron>piktʃər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>слика</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>piece</orth>
+               <pron>pis</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>комад</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>place</orth>
+               <pron>pleis</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>место</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>мјесто</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>place</orth>
+               <pron>pleisɔfwəːʃip</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>црква</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>plane</orth>
+               <pron>plein</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>аероплан</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>авион</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>plate</orth>
+               <pron>pleit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>тањир</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>platform</orth>
+               <pron>plætfɔːm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>перон</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>plume</orth>
+               <pron>pluːm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>перо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>pocket</orth>
+               <pron>pɔkit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>джеп</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>police</orth>
+               <pron>pəliːs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>полиција</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>policeman</orth>
+               <pron>pəliːsmən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>милицајац</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>possibly</orth>
+               <pron>pɔsəbliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>можда</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>postage</orth>
+               <pron>poustidʒstæmp</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>марка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>pound</orth>
+               <pron>paund</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>фунта</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>prince</orth>
+               <pron>prins</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кнез</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>professor</orth>
+               <pron>prəfesər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>професор</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>provided</orth>
+               <pron>prəvaididðæt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ако</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>purpose</orth>
+               <pron>pʌpouz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>циљ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>quay</orth>
+               <pron>kweiiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>перон</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>question</orth>
+               <pron>kwestʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>питање</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>quickly</orth>
+               <pron>kwikliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>брзо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>quite</orth>
+               <pron>kwait</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>врло</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>radio</orth>
+               <pron>reidiəə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радио</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ray</orth>
+               <pron>rei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радио</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>reality</orth>
+               <pron>riælitiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>истина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>receive</orth>
+               <pron>risiːv</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>прихватити</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>regularly</orth>
+               <pron>regjuləliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>често</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>restaurant</orth>
+               <pron>restrɔnt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ресторан</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ring</orth>
+               <pron>riŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>прстен</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>river</orth>
+               <pron>rivər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>река</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ријека</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>roof</orth>
+               <pron>ruːf</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кров</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>room</orth>
+               <pron>ruːm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>соба</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sack</orth>
+               <pron>sæk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>торба</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>salary</orth>
+               <pron>sæləriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>плата</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>school</orth>
+               <pron>sʃuːl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>школа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sea</orth>
+               <pron>siə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>море</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>seaside</orth>
+               <pron>siːsaid</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обала</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>secret</orth>
+               <pron>siːkrit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>тајна</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>seed</orth>
+               <pron>siːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>семе</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>сјеме</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>servant</orth>
+               <pron>səːvənt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>слуга</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>seven</orth>
+               <pron>sevn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>седам</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>several</orth>
+               <pron>sevrəltaimz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>понекад</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>shack</orth>
+               <pron>ʃæk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шупа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>shade</orth>
+               <pron>ʃeid</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сенка</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>сјенка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>shadow</orth>
+               <pron>ʃædou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сенка</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>сјенка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sharp</orth>
+               <pron>ʃɑːp</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>баш</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>she</orth>
+               <pron>ʃou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>она</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ship</orth>
+               <pron>ʃip</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>брод</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>shoe</orth>
+               <pron>ʃuː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ципела</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>shop</orth>
+               <pron>ʃɔp</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дућан</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>радња</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>shore</orth>
+               <pron>ʃɔːr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обала</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>shoulder</orth>
+               <pron>ʃouldər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>плеће</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sideboard</orth>
+               <pron>saidbɔːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ормар</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sir</orth>
+               <pron>saiər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>господин</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sister</orth>
+               <pron>sistər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сестра</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>six</orth>
+               <pron>siks</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шест</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sky</orth>
+               <pron>skiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>небо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>snow</orth>
+               <pron>snou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>снег</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>снијег</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>soil</orth>
+               <pron>sɔil</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>земља</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>soldier</orth>
+               <pron>souldiər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>војник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sole</orth>
+               <pron>soul</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сам</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>solicitor</orth>
+               <pron>səlisitər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>адвокат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>solitary</orth>
+               <pron>sɔlitriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сам</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>some</orth>
+               <pron>sʌm</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>когод</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>неко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>somebody</orth>
+               <pron>sʌmbədiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>когод</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>неко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>someone</orth>
+               <pron>sʌmwʌn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>когод</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>неко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>something</orth>
+               <pron>səmiːθiŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>нешто</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sometimes</orth>
+               <pron>səmetaimz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>понекад</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>somewhere</orth>
+               <pron>soumwɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>негде</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>негђе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>son</orth>
+               <pron>sɔn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>син</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>soup</orth>
+               <pron>suːp</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>супа</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>so</orth>
+               <pron>soulɔŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>довиђења</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>spinster</orth>
+               <pron>spinstər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>госпођица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>spoon</orth>
+               <pron>spuːn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кашика</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>spot</orth>
+               <pron>spɔt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>место</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>мјесто</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>stamp</orth>
+               <pron>stæmp</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>марка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>station</orth>
+               <pron>steiʃən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>станица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>steak</orth>
+               <pron>steik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бифтек</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>stone</orth>
+               <pron>stoun</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>камен</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>store</orth>
+               <pron>stɔːr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>дућан</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>радња</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>student</orth>
+               <pron>stjuːdnt</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>студенткиња</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>студент</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>suburb</orth>
+               <pron>sʌbəːb</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>предграђе</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>success</orth>
+               <pron>səkses</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>успех</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>успјех</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>such</orth>
+               <pron>sʌtʃə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>како</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>suddenly</orth>
+               <pron>sʌdnliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ођедном</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sugar</orth>
+               <pron>ʃugər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шећер</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>summer</orth>
+               <pron>sʌmər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>лето</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>љето</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>sun</orth>
+               <pron>sn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сунце</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>swiftly</orth>
+               <pron>swiftliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>брзо</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>take</orth>
+               <pron>teik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>прихватити</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>target</orth>
+               <pron>tɑːgit</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>циљ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>taxi</orth>
+               <pron>tæksiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>такси</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>tea</orth>
+               <pron>tiə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>чај</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>teacher</orth>
+               <pron>tiːtʃər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>учитељ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ten</orth>
+               <pron>tn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>десет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>than</orth>
+               <pron>θein</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>него</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>that</orth>
+               <pron>ðæt</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>шта</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>ко</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>који</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>тко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>theatre</orth>
+               <pron>θiətər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>позориште</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>there</orth>
+               <pron>ðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>тамо</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ту</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>they</orth>
+               <pron>ðei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>она</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>оне</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>они</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>the</orth>
+               <pron>ðdeiɑːftərtəmɔrou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>прексутра</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>прекосутра</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>the</orth>
+               <pron>ðdeibfɔːrjestədiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>прекјуче</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>thou</orth>
+               <pron>ðau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ти</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ви</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>though</orth>
+               <pron>ðau</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>иако</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>three</orth>
+               <pron>θriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>три</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>through</orth>
+               <pron>θruː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кроз</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>throw</orth>
+               <pron>θrou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>бацати</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>бацити</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>time</orth>
+               <pron>taim</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>сат</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>пут</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>време</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>вријеме</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>to</orth>
+               <pron>tou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>к</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>today</orth>
+               <pron>tədei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>данас</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>together</orth>
+               <pron>təgeðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>скупа</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>заједно</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>tomorrow</orth>
+               <pron>təmɔrou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>сутра</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>tongue</orth>
+               <pron>tʌŋ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>језик</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>too</orth>
+               <pron>tuː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>такоде</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>tooth</orth>
+               <pron>tuːθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>зуб</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>tourist</orth>
+               <pron>teərist</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>турист</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>toward</orth>
+               <pron>təwɔːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>к</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>towards</orth>
+               <pron>təwɔːdz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>к</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>town</orth>
+               <pron>taun</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>град</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>варош</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>toy</orth>
+               <pron>tɔi</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>играчка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>traffic</orth>
+               <pron>træfik</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>саобраћај</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>truth</orth>
+               <pron>truːθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>истина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>two</orth>
+               <pron>twou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>два</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>две</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>typewriter</orth>
+               <pron>taipraitər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>машина</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>uncle</orth>
+               <pron>ʌŋkl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>стриц</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>under</orth>
+               <pron>ʌndər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>под</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>underneath</orth>
+               <pron>ʌndənəːθ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>под</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>university</orth>
+               <pron>juːnivəːsitiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>универзитет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>unmarried</orth>
+               <pron>ʌnmæridwumən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>госпођица</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>upon</orth>
+               <pron>əpɔn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>против</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>us</orth>
+               <pron>juːs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ми</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>usually</orth>
+               <pron>juːʒəliː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обично</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>vehicle</orth>
+               <pron>viːikl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кола</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>very</orth>
+               <pron>veriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>врло</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>vessel</orth>
+               <pron>vesəl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>брод</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>village</orth>
+               <pron>vilidʒ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>село</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>vocabulary</orth>
+               <pron>vəkæbjuləriː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>речник</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ријечник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>voice</orth>
+               <pron>vɔis</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>глас</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>vote</orth>
+               <pron>vout</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>глас</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>wage</orth>
+               <pron>weidʒ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>плата</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>wages</orth>
+               <pron>weidʒiz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>плата</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>waiter</orth>
+               <pron>weitər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>келнер</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>wall</orth>
+               <pron>wɔːl</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>зид</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>walnut</orth>
+               <pron>wɔːlnʌt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>орах</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>war</orth>
+               <pron>ər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рат</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>water</orth>
+               <pron>wɔːtər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>вода</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>way</orth>
+               <pron>wei</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>обичај</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>we</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ми</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>weather</orth>
+               <pron>weðər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>време</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>вријеме</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>wench</orth>
+               <pron>wentʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>девојка</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>wharf</orth>
+               <pron>wɔːf</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>перон</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>what</orth>
+               <pron>wɔt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шта</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>what</orth>
+               <pron>wɔtə</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>како</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>what</orth>
+               <pron>wɔtfər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>зашто</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>when</orth>
+               <pron>n</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>кад</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>када</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>where</orth>
+               <pron>wɛər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>гдје</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>где</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>which</orth>
+               <pron>witʃ</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ко</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>који</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>тко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>while</orth>
+               <pron>wail</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>пут</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>време</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>вријеме</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>who</orth>
+               <pron>hou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ко</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>који</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>тко</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>why</orth>
+               <pron>wiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>зашто</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>window</orth>
+               <pron>windou</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>прозор</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>wine</orth>
+               <pron>wain</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>вино</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>winter</orth>
+               <pron>wintər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>зима</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>wireless</orth>
+               <pron>waiələs</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радио</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>within</orth>
+               <pron>wiθin</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>у</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>without</orth>
+               <pron>wiθɔːt</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>без</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>woman</orth>
+               <pron>wumən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>жена</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>woods</orth>
+               <pron>wudz</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>шума</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>word</orth>
+               <pron>wəːd</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>реч</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ријеч</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>work</orth>
+               <pron>wəːk</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рад</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>worker</orth>
+               <pron>wəːkər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>working</orth>
+               <pron>wəːkiŋmein</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>workman</orth>
+               <pron>wəːkmən</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>радник</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>world</orth>
+               <pron>wəːld</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>свет</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>свијет</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>wound</orth>
+               <pron>waund</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>рана</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>ye</orth>
+               <pron>iː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ти</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ви</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>year</orth>
+               <pron>jəːr</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>година</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>yes</orth>
+               <pron>jez</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>да</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>yesterday</orth>
+               <pron>jestədiː</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>јуче</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>yet</orth>
+               <pron>jet</pron>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>веђ</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>већ</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>yon</orth>
+               <pron>jɔn</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>тамо</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ту</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="en">
+               <orth>yonder</orth>
+               <pron>jɔndər</pron>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>тамо</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ту</quote>
+               </cit>
+            </sense>
+         </entry>
+      </body>
+   </text>
+</TEI>

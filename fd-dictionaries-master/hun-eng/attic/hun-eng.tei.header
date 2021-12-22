@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="freedict-P5.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+      <titleStmt>
+	<title>Hungarian-English FreeDict Dictionary</title>
+        <respStmt>
+	  <resp>Author</resp>
+	  <name>Vony Attila &lt;vonyoa@almos.vein.hu></name>
+	</respStmt>
+      </titleStmt>
+      <editionStmt>
+	<edition>0.3.1</edition>
+      </editionStmt>
+      <extent>139 935 headwords</extent>
+      <publicationStmt>
+        <publisher>FreeDict</publisher>
+        <availability status="free">
+          <p>Copyright (C) 1999 Vony Attila and Bui Pol</p>
+          <p>GNU GENERAL PUBLIC LICENSE</p>
+        </availability>
+          <date when="2014-09-14">14 September 2014</date>
+        <pubPlace>http://freedict.org/</pubPlace>
+	<idno type="svn">$Id$</idno>
+      </publicationStmt>
+      <notesStmt>
+        <note type="status">stable</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>The original version of this file is from 13/Nov/1999,
+	made by Vony Attila and Bui Pol.
+	Home: <ptr target="http://almos.vein.hu/~vonyoa"/>
+	(mindenkori legteljesebb v#ltozat)</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+          <p>This dictionary comes to you through nice people making it
+          available for free and for good. It is part of the FreeDict project,
+          http://www.freedict.org / http://freedict.de. This
+          project aims to make available many translating dictionaries
+          for free. Your contributions are welcome!</p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+        <change when="2014-09-14">
+            <name>Michael Bunk</name>
+            Attempt to fix Debian #759952: FTBFS: hun-eng.tei:69: parser error : Premature end of data in tag body line 67 
+            Debian sbuild runs a parallel make, which seems to cause the "fails to build". hun-eng.tei.header is 71 lines long, similar to the parser error in line 69. Previously, the Makefile target for hun-eng.tei created the destination file in several steps, using the target name from the beginning. Now two temporary files are created and hun-eng.tei is used only for the final step. Hopefully this will sbuild/parallel make use hun-eng.tei for building hun-eng.c5 only after hun-eng.tei is ready. 
+            See also https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=759952
+        </change>
+      <change when="2014-02-16">
+        <name>Michael Bunk</name>
+        Converted converter from P4 to P5
+      </change>
+      <change when="2005-03-07">
+        <name>Michael Bunk</name>
+	Reimport from source. There are now almost 3000 entries
+	  more, don't know why. Fixes Bug #920855 (Index and dict file
+	  for Hungarian-English dictionary is bad), which included an
+	  encoding problem and missing spaces, besides an incorrectly
+	  sorted .index file for dictd.
+      </change>
+      <change when="2004-12-29">
+        <name>Michael Bunk</name>
+        Converted TEI file from P3 to P4
+      </change>
+      <change when="2000-11-06">
+        <name>Horst Eyermann</name>
+        Import from source
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+

@@ -1,0 +1,67 @@
+TODO
+----
+
+scrollkeeper-update in debian/postinst & postrm
+
+> I like the program. The only caveat is that it depends
+> too much on gnome. If you can remove this dependence...
+I can try to make some Gnome libs optional (thinking of gconf and libgtkhtml presently).
+
+
+gtksourceview
+  a GTK widget which extends the standard GTK text widgets implementing syntax
+  highlighting, automatic indentation, and other typical features of source
+  editors.
+  dpkg -l "*gtksource*"
+ 
+sanity
+ trimmable spaces
+ entry with only form child(ren)
+ typology compliance
+ put sanity checks into free standing stylesheet/Makefile.common target/tool
+
+automatically add to new/changed entry
+ editer name/email/timestamp
+ source reference (to new entry only)
+  how to encode?
+
+additional optionmenu <form type="">
+ type classifies form as simple, compound etc.
+ (phrase, abbreviation, wrong spelling?)
+ phrase subtype: idiom
+
+XML DBs as Backend(s) inste4ad of file in memory
+  Apache Xindice: Java, slow
+  exist: same
+  pgxml: didn't try yet, postgres is promising
+  db2: proprietary
+
+create & install a .desktop file to appear in windowmanager menus
+integrate mime-info files nicely
+
+headwords as <oref?> in examples
+
+etymology fields
+
+google (api) integration to resolve spelling and idiom frequency questions?
+guile / embedded perl support?
+
+list editor in http://www.tei-c.org/Software/
+
+KHASI
+-----
+
+Por kha te bang,
+por kha te pang,
+sat syllang ka pit
+ba lah ioh khun rit.
+
+put into teiHeader or front/back matter
+ common gender type uses article 'i'
+ use of ï and ñ, n g
+
+check: only allowed chars in headwords (no c!)
+ everything that starts with
+    jing should be fem noun
+    pyn should be verb and have a xr to verb without pyn
+ -> configurable Xpath expressions for the sanity checks

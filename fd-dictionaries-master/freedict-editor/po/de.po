@@ -1,0 +1,1243 @@
+# translation of de.po to German
+# translation of de.po to Deutsch
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Michael Bunk <kleinerwurm@gmx.net>, 2006.
+# Michael Bunk <michael.bunk@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: de\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-02 11:42+0200\n"
+"PO-Revision-Date: 2008-04-02 11:43+0100\n"
+"Last-Translator: Michael Bunk <michael.bunk@gmail.com>\n"
+"Language-Team: Deutsch <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: src/main.c:50
+#, c-format
+msgid "Failed to load glade interface description.  I tried '%s', '%s' and '%s'.\n"
+msgstr "Konnte Glade-Benutzeroberflächenbeschreibung nicht laden.  Durchsuchte Pfade: '%s', '%s' und '%s'.\n"
+
+#: src/callbacks.c:211
+#, c-format
+msgid "Failed to load %s!"
+msgstr "Laden von %s fehlgeschlagen."
+
+#: src/callbacks.c:244
+#, c-format
+msgid "Couldn't find dictionary template.  Checked locations: '%s', '%s' and %s"
+msgstr "Konnte Wörterbuchvorlage nicht finden.  Durchsuchte Pfade: '%s', '%s' und '%s'."
+
+#: src/callbacks.c:270
+msgid "TEI Files"
+msgstr "TEI-Dateien"
+
+#: src/callbacks.c:271
+msgid "All Files"
+msgstr "Alle Dateien"
+
+#: src/callbacks.c:284
+msgid "Open File"
+msgstr "Datei öffnen"
+
+#: src/callbacks.c:317
+msgid "Save File"
+msgstr "Datei speichern"
+
+#: src/callbacks.c:331
+msgid "New Dictionary.tei"
+msgstr "Neues Wörterbuch.tei"
+
+#: src/callbacks.c:364
+msgid "File modified. Save?"
+msgstr "Datei wurde geändert. Speichern?"
+
+#: src/callbacks.c:600
+#: src/callbacks.c:608
+#, c-format
+msgid "Malformed XPath-Template. Only one %%s and many %%%% allowed."
+msgstr "Fehlerhafte XPath-Vorlage. Nur ein Vorkommen von %%s und viele %%%% sind erlaubt."
+
+#: src/callbacks.c:631
+msgid "No matches."
+msgstr "Keine Treffer."
+
+#: src/callbacks.c:634
+#, c-format
+msgid "%i matching nodes"
+msgstr "%i Treffer."
+
+#: src/callbacks.c:652
+msgid "Matching Nodes"
+msgstr "Treffer"
+
+#: src/callbacks.c:717
+msgid "Edit accepted."
+msgstr "Änderungen übernommen."
+
+#: src/callbacks.c:751
+msgid "Edited XML is not well formed! Can't save it!"
+msgstr "Das XML ist nicht wohlgeformt. Speichern nicht möglich."
+
+#: src/callbacks.c:765
+#: src/callbacks.c:940
+msgid "Edited XML is not valid! Won't save it!"
+msgstr "Das XML ist nicht gültig. Speichern verweigert."
+
+#: src/callbacks.c:807
+msgid "xmlAddChild(bodyNode, newEntry) failed!"
+msgstr "xmlAddChild(bodyNode, newEntry) fehlgeschlagen!"
+
+#: src/callbacks.c:863
+#, c-format
+msgid "New entry created and editable. Speed: %2.1f entries/hour"
+msgstr "Neuer Eintrag wurde erzeugt und ist bearbeitbar. Geschwindigkeit: %2.1f Einträge/Stunde"
+
+#: src/callbacks.c:983
+msgid "Cannot handle entry with form :("
+msgstr "Eintrag paßt nicht in die Formular-Felder."
+
+#: src/callbacks.c:994
+msgid "Saving form contents as XML failed :("
+msgstr "Speichern des Formularinhalts als XML ist fehlgeschlagen :("
+
+#: src/callbacks.c:1224
+#, c-format
+msgid "Loaded %s from GConf.\n"
+msgstr "%s via GConf geladen.\n"
+
+#: src/callbacks.c:1230
+#, c-format
+msgid "Using builtin default %s.\n"
+msgstr "Verwende eingebaute Vorgabe %s.\n"
+
+#: src/callbacks.c:1275
+#, c-format
+msgid "Key was empty. Using default: %s\n"
+msgstr "GConf-Schlüssel war leer. Verwende Standardeinstellung: %s\n"
+
+#: src/callbacks.c:1277
+#, c-format
+msgid "Using stylesheet filename from gconf: %s\n"
+msgstr "Verwende Dateiname der Formatvorlage aus GConf: %s\n"
+
+#: src/callbacks.c:1323
+#, c-format
+msgid "Couldn't find entry template.  Checked locations: '%s', '%s' and %s"
+msgstr "Konnte Eintragsvorlage nicht finden.  Geprüfte Pfade: '%s', '%s' und %s"
+
+#: src/callbacks.c:1329
+msgid "Failed to parse entry template!"
+msgstr "Konnte Eintragsvorlage nicht einlesen!"
+
+#: src/callbacks.c:1338
+#, c-format
+msgid "Could not load entry stylesheet %s. HTML Preview won't work!"
+msgstr "Konnte HTML-Vorschau-Stilvorlage %s nicht laden. HTML-Vorschau deaktiviert."
+
+#: src/callbacks.c:1440
+msgid "Error converting entry to HTML!"
+msgstr "Konnte Eintrag nicht nach HTML umwandeln!"
+
+#. save contents of form
+#: src/callbacks.c:1479
+msgid "Saving form contents as XML failed."
+msgstr "Konnte Formularinhalt nicht als XML speichern."
+
+#: src/callbacks.c:1559
+msgid "No Drops accepted while unsaved changes in memory."
+msgstr "Drag-and-Drop nicht möglich, da das geöffnete Dokument geändert wurde."
+
+#: src/callbacks.c:1578
+#, c-format
+msgid ""
+"Did not recognize URI in Drop (no \\r\\n"
+"): %s\n"
+msgstr ""
+"Konnte URI in fallengelassenem \"Ding\" nicht erkennen (kein \\r\\n"
+"): %s\n"
+
+#: src/callbacks.c:1581
+#, c-format
+msgid "Did not recognize file-URI in Drop: %s\n"
+msgstr "Konnte Datei-URI aus Drop nicht erkennen: %s\n"
+
+#: src/callbacks.c:1636
+msgid "Failed to find 'xkbprint' in path."
+msgstr "Konnte 'xkbprint' nicht mittels PATH finden."
+
+#: src/callbacks.c:1642
+msgid "Failed to find 'gv' in path."
+msgstr "Konnte 'gv' nicht mittels PATH finden."
+
+#: src/callbacks.c:1650
+#, c-format
+msgid "Failed to show keyboard layout with command: %s"
+msgstr "Konnte Tastaturlayout nicht mittels golfenden Kommandos anzeigen: %s"
+
+#: src/callbacks.c:1653
+#, c-format
+msgid "Done: %s"
+msgstr "Fertig: %s"
+
+#: src/callbacks.c:2113
+msgid "Finished Spellcheck."
+msgstr "Rechtschreibprüfung abgeschlossen."
+
+#: src/callbacks.c:2211
+#, c-format
+msgid "%s, size=%s"
+msgstr "%s, Größe=%s"
+
+#: src/callbacks.c:2242
+msgid "This binary of FreeDict-Editor was compiled without aspell support."
+msgstr "Diese Version des FreeDict-Editors wurde ohne aspell-Unterstützung kompiliert."
+
+#: src/callbacks.c:2282
+#, c-format
+msgid "There is no use in replacing a misspelled word with itself.\n"
+msgstr "Es macht keinen Sinn etwas durch sich selbst zu ersetzen.\n"
+
+#: src/callbacks.c:2741
+msgid "Missing Part-of-Speech"
+msgstr "Fehlende Wortart"
+
+#: src/callbacks.c:2743
+msgid "Nouns without Gender"
+msgstr "Nomen ohne Genus"
+
+#: src/callbacks.c:2745
+msgid "Notes with Question Marks"
+msgstr "<note>-Elementinhalte mit Fragezeichen"
+
+#: src/callbacks.c:2747
+msgid "Empty Headwords"
+msgstr "Fehlende Stichworte"
+
+#: src/callbacks.c:2749
+msgid "Empty Body"
+msgstr "Fehlender Inhalt"
+
+#. too slow
+#: src/callbacks.c:2753
+msgid "Homographs of same Part-of-Speech"
+msgstr "Homographen der gleichen Wortart"
+
+#: src/callbacks.c:2758
+msgid "Broken Cross-References"
+msgstr "Kaputte Querverweise"
+
+#: src/callbacks.c:2763
+msgid "Multiple Headwords"
+msgstr "Mehrere Stichworte"
+
+#: src/callbacks.c:2765
+msgid "\"to \" before verbs (only useful for English, checks tr)"
+msgstr "\"to \" vor Verben (spezifisch für English, prüft <tr>)"
+
+#: src/callbacks.c:2767
+msgid "\"to \" before verbs (only useful for English, checks orth)"
+msgstr "\"to \" vor Verben (spezifisch für English, prüft <orth>)"
+
+#: src/callbacks.c:2769
+msgid "Unbalanced braces"
+msgstr "Unausgeglichene Klammern"
+
+#: src/callbacks.c:2894
+#, c-format
+msgid "%1$s (%2$i matches)"
+msgstr "%1$s (%2$i Treffer)"
+
+#: src/callbacks.c:2983
+msgid "Sanity checks performed."
+msgstr "Prüfungen abgeschlossen."
+
+#: src/callbacks.c:3026
+msgid "Check Enabled?"
+msgstr "Prüfung aktiv?"
+
+#: src/callbacks.c:3035
+msgid "Check Name"
+msgstr "Name der Prüfung"
+
+#: src/callbacks.c:3041
+msgid "Matching Entries"
+msgstr "Passende Einträge"
+
+#: src/utils.c:93
+msgid ""
+"1. Open a TEI file\n"
+"2. Modify the XPath select expression to match\n"
+"\tthe entries you desire to edit\n"
+"3. Double-click on an entry headword in the list\n"
+"\tof matching entries to the right!"
+msgstr ""
+"1. TEI-Datei öffnen\n"
+"2. XPath-select-Ausdruck anpassen, so daß\n"
+"\ter die zu bearbeitenden Einträge auswählt\n"
+"3. Doppelklicken eines Stichwortes eines Eintrags in der \n"
+"\tTrefferliste rechts"
+
+#: src/utils.c:144
+#, c-format
+msgid "Saving to %s failed."
+msgstr "Speichern als %s fehlgeschlagen."
+
+#: src/utils.c:150
+msgid "Saved."
+msgstr "Gespeichert."
+
+#: src/entryedit.c:144
+msgid "(nothing)"
+msgstr "(nichts)"
+
+#. show label "No cross-references exist."
+#. XXX care for this label when creating a new sense and adding the first xr
+#: src/entryedit.c:221
+msgid "No Cross-References exist."
+msgstr "Es existieren keine Querverweise."
+
+#: src/entryedit.c:274
+msgid "Translation Equivalent"
+msgstr "Übersetzungsalternative"
+
+#: src/entryedit.c:279
+#: freedict-editor.glade:746
+msgid "Part of Speech"
+msgstr "Wortart"
+
+#: src/entryedit.c:293
+#: freedict-editor.glade:799
+msgid "Genus"
+msgstr "Genus"
+
+#: src/entryedit.c:376
+#, c-format
+msgid "Sense %i"
+msgstr "Bedeutung %i"
+
+#. domain label
+#: src/entryedit.c:386
+msgid "Domain"
+msgstr "Sachgebiet"
+
+#: src/entryedit.c:404
+msgid "Domain of use"
+msgstr "Sprachregister"
+
+#. register label
+#: src/entryedit.c:410
+msgid "Register"
+msgstr "Verwendungszusammenhang"
+
+#: src/entryedit.c:428
+msgid "Usage context"
+msgstr "Verwendungszusammenhang"
+
+#. translations label
+#: src/entryedit.c:432
+msgid "Translation(s)"
+msgstr "Übersetzung(en)"
+
+#: src/entryedit.c:464
+msgid "Add new Translation Equivalent"
+msgstr "Neue Übersetzungsalternative hinzufügen"
+
+#: src/entryedit.c:475
+#: src/entryedit.c:581
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/entryedit.c:486
+msgid "Remove last Translation Equivalent"
+msgstr "Letzte Übersetzungsalternative entfernen"
+
+#: src/entryedit.c:500
+#: src/entryedit.c:605
+msgid "Remove"
+msgstr "Entfernen"
+
+#: src/entryedit.c:521
+msgid "Definition of this Sense"
+msgstr "Definition dieser Bedeutung"
+
+#: src/entryedit.c:538
+msgid "Freestyle Note"
+msgstr "Formlose Bemerkung"
+
+#: src/entryedit.c:570
+msgid "Add new Cross-Reference to another Headword in this Dictionary"
+msgstr "Querverweis zu einem Stichwort dieses Wörterbuchs hinzufügen"
+
+#: src/entryedit.c:592
+msgid "Remove last Cross-Reference"
+msgstr "Letzten Querverweis entfernen"
+
+#. example
+#: src/entryedit.c:611
+msgid "Example"
+msgstr "Beispiel"
+
+#: src/entryedit.c:625
+msgid "Example phrase or sentence where the Headword is used in this Sense"
+msgstr "Beispielphrase oder -satz, in dem das Stichwort in der entsprechenden Bedeutung vorkommt"
+
+#: src/entryedit.c:635
+msgid "Optional Translation of the Example"
+msgstr "Optionale Übersetzung des Beispiels"
+
+#: src/entryedit.c:715
+#, c-format
+msgid "Unknown <%s> content: '%s'\n"
+msgstr "Unbekannter <%s>-Inhalt: '%s'\n"
+
+#: src/entryedit.c:1048
+#, c-format
+msgid "Remaining content in entry: '%s'.\n"
+msgstr "Verbleibender Inhalt im Eintrag: '%s'.\n"
+
+#: src/xml.c:302
+#, c-format
+msgid "%s: %i matching nodes (only 1 expected). Taking first.\n"
+msgstr "%s: %i Treffer - jedoch nur einer erwartet. Nehme ersten.\n"
+
+#: src/xml.c:445
+msgid "No nodes (form/orth)!"
+msgstr "Keine Knoten (form/orth)!"
+
+#: src/values.c:79
+#, c-format
+msgid "GSList2Values: length=%i sizeof(Values)=%i\n"
+msgstr "GSList2Values: length=%i sizeof(Values)=%i\n"
+
+#: src/values.c:95
+#, c-format
+msgid " label: '%s' value: '%s'\n"
+msgstr " label: '%s' value: '%s'\n"
+
+#: src/values.c:161
+msgid "Undetermined"
+msgstr "Unbestimmt"
+
+#: src/values.c:162
+msgid "Antonym"
+msgstr "Antonym"
+
+#: src/values.c:163
+msgid "Hypernym"
+msgstr "Hypernym"
+
+#: src/values.c:164
+msgid "Hyponym"
+msgstr "Hyponym"
+
+#: src/values.c:165
+msgid "Synonym"
+msgstr "Synonym"
+
+#: src/values.c:166
+msgid "Derived from"
+msgstr "Abgeleitet von"
+
+#: src/values.c:171
+#: src/values.c:192
+#: src/values.c:203
+msgid "None"
+msgstr "Keine Angabe"
+
+#: src/values.c:172
+msgid "_Noun"
+msgstr "_Nomen"
+
+#: src/values.c:173
+msgid "Verb"
+msgstr "Verb"
+
+#: src/values.c:174
+msgid "Transitive Verb"
+msgstr "Transitives Verb"
+
+#: src/values.c:175
+msgid "Intransitive Verb"
+msgstr "Intransitives Verb"
+
+#: src/values.c:176
+msgid "Transitive and intransitive Verb"
+msgstr "Transitives und intransitives Verb"
+
+#: src/values.c:177
+msgid "Adverb"
+msgstr "Adverb"
+
+#: src/values.c:178
+msgid "_Adjective"
+msgstr "_Adjektiv"
+
+#: src/values.c:179
+msgid "Conjunction"
+msgstr "Konjunktion"
+
+#: src/values.c:180
+msgid "_Preposition"
+msgstr "_Präposition"
+
+#: src/values.c:181
+msgid "_Interjection"
+msgstr "_Interjektion"
+
+#: src/values.c:182
+msgid "Pronoun"
+msgstr "Pronomen"
+
+#: src/values.c:183
+msgid "Article"
+msgstr "Artikel"
+
+#: src/values.c:184
+msgid "Numeral"
+msgstr "Zahl"
+
+#: src/values.c:185
+msgid "Imitative"
+msgstr "Imitativ"
+
+#: src/values.c:186
+msgid "Abbreviation"
+msgstr "Abkürzung"
+
+#: src/values.c:187
+msgid "Phrase"
+msgstr "Phrase"
+
+#: src/values.c:193
+msgid "Masculine"
+msgstr "Maskulin"
+
+#: src/values.c:194
+msgid "_Feminine"
+msgstr "_Feminin"
+
+#: src/values.c:195
+msgid "Neuter"
+msgstr "Neutrum"
+
+#: src/values.c:196
+msgid "Common"
+msgstr "Gemeinsam"
+
+#: src/values.c:197
+msgid "Masc. & Fem."
+msgstr "Maskulin & Feminin"
+
+#: src/values.c:198
+msgid "Masc., Fem. & Neut."
+msgstr "Maskulin, Feminin & Neutrum"
+
+#: src/values.c:204
+msgid "_Singular"
+msgstr "_Singular"
+
+#: src/values.c:205
+msgid "Dual"
+msgstr "Dual"
+
+#: src/values.c:206
+msgid "Plural"
+msgstr "Plural"
+
+#: src/values.c:214
+#: src/values.c:248
+msgid "_None"
+msgstr "Kei_ne Angabe"
+
+#. taken from fdicts.com
+#: src/values.c:217
+msgid "_Agriculture"
+msgstr "L_andwirtschaft"
+
+#: src/values.c:218
+msgid "Astronomy"
+msgstr "Astronomie"
+
+#: src/values.c:219
+msgid "Automobile"
+msgstr "Automobil"
+
+#: src/values.c:220
+msgid "_Biology"
+msgstr "_Biologie"
+
+#: src/values.c:221
+msgid "B_otany"
+msgstr "B_otanik"
+
+#: src/values.c:222
+msgid "_Chemistry"
+msgstr "_Chemie"
+
+#: src/values.c:223
+msgid "_Electrotechnics"
+msgstr "_Elektrotechnik"
+
+#: src/values.c:224
+msgid "_Finance"
+msgstr "_Finanzen"
+
+#: src/values.c:225
+msgid "_Geography"
+msgstr "_Geographie"
+
+#: src/values.c:226
+msgid "Geolog_y"
+msgstr "Geologie"
+
+#: src/values.c:227
+msgid "Grammar"
+msgstr "Grammatik"
+
+#: src/values.c:228
+msgid "_History"
+msgstr "Gesc_hichte"
+
+#: src/values.c:229
+msgid "_Information Technology"
+msgstr "_Informationstechnologie"
+
+#: src/values.c:230
+msgid "_Law"
+msgstr "Juristik"
+
+#: src/values.c:231
+msgid "_Mathematics"
+msgstr "_Mathematik"
+
+#: src/values.c:232
+msgid "Me_dicine"
+msgstr "Me_dizin"
+
+#: src/values.c:233
+msgid "Military"
+msgstr "Militär"
+
+#: src/values.c:234
+msgid "M_usic"
+msgstr "M_usik"
+
+#: src/values.c:235
+msgid "Myth_ology"
+msgstr "Myth_ologie"
+
+#: src/values.c:236
+msgid "_Physics"
+msgstr "_Physik"
+
+#: src/values.c:237
+msgid "Politics"
+msgstr "Politik"
+
+#: src/values.c:238
+msgid "_Religion"
+msgstr "_Religion"
+
+#: src/values.c:239
+msgid "_Sexual"
+msgstr "_Sexueller Begriff"
+
+#: src/values.c:240
+msgid "Sport"
+msgstr "Sport"
+
+#: src/values.c:241
+msgid "_Technology"
+msgstr "_Technologie"
+
+#. the word is used in official communication
+#: src/values.c:250
+msgid "_Official"
+msgstr "_Offiziell"
+
+#. same as official, maybe a bit less, suggested by TEI 12.3.5.2
+#: src/values.c:252
+msgid "_Formal"
+msgstr "_Formal"
+
+#. the word is used to communicate with small children and by them
+#: src/values.c:254
+msgid "Ch_ildren Speech"
+msgstr "K_indersprache"
+
+#. the word is used in informal context, like at home
+#: src/values.c:256
+msgid "_Colloquial"
+msgstr "Umgangsspra_che"
+
+#. the word is used by certain groups of society only,
+#. suggested by TEI 12.3.5.2
+#: src/values.c:259
+msgid "_Slang"
+msgstr "_Slang"
+
+#. ithe word is used by uneducated people
+#: src/values.c:261
+msgid "_Vulgar"
+msgstr "_Vulgär"
+
+#. the word should not be used?, suggested by TEI 12.3.5.2
+#: src/values.c:263
+msgid "_Taboo"
+msgstr "_Taboo"
+
+#. the word is used mainly in ironic remarks?,
+#. suggested by TEI 12.3.5.2
+#: src/values.c:266
+msgid "_Ironic"
+msgstr "_Ironisch"
+
+#. the word is used mainly in funny context eg. jokes?,
+#. suggested by TEI 12.3.5.2
+#: src/values.c:269
+msgid "_Facetious"
+msgstr "_Witz"
+
+#: freedict-editor.glade:9
+msgid "FreeDict-Editor"
+msgstr "FreeDict-Editor"
+
+#: freedict-editor.glade:33
+msgid "New TEI Dictionary File"
+msgstr "Neue TEI-Datei"
+
+#: freedict-editor.glade:44
+msgid "Open TEI Dictionary File"
+msgstr "TEI-Datei öffnen"
+
+#: freedict-editor.glade:55
+msgid "Save TEI Dictionary File"
+msgstr "TEI Wörterbuchdatei speichern"
+
+#: freedict-editor.glade:75
+msgid "Add new Entry"
+msgstr "Neuen Eintrag hinzufügen"
+
+#: freedict-editor.glade:76
+msgid "New Entry"
+msgstr "Neuer Eintrag"
+
+#: freedict-editor.glade:89
+#: freedict-editor.glade:90
+msgid "Delete Entry"
+msgstr "Eintrag löschen"
+
+#: freedict-editor.glade:102
+msgid "Save changes to Entry"
+msgstr "Änderungen am Eintrag speichern"
+
+#: freedict-editor.glade:103
+msgid "Save Entry"
+msgstr "Eintrag speichern"
+
+#: freedict-editor.glade:116
+#: freedict-editor.glade:422
+msgid "Cancel Edit of Entry"
+msgstr "Bearbeiten des Eintrags abbrechen"
+
+#: freedict-editor.glade:117
+#: freedict-editor.glade:423
+msgid "_Cancel Edit"
+msgstr "Bearbeiten abbrechen"
+
+#: freedict-editor.glade:138
+msgid "Stop current XPath-Match"
+msgstr "Aktuelle XPath-Suche abbrechen"
+
+#: freedict-editor.glade:164
+msgid "Se_lect:"
+msgstr "Se_lect-Ausdruck:"
+
+#: freedict-editor.glade:184
+msgid "This string will replace the %s in the XPath-Template."
+msgstr "Das %s in der XPath-Vorlage wird durch diese Zeichenkette ersetzt"
+
+#: freedict-editor.glade:213
+msgid "XPath-Template:"
+msgstr "XPath-Vorlage:"
+
+#: freedict-editor.glade:232
+msgid "Enter an XPath expression. It may contain one %s, which will be filled by the contents of the \"Select\" input field."
+msgstr "XPath-Ausdruck. %s, wird durch den Select-Ausdruck ersetzt."
+
+#: freedict-editor.glade:235
+msgid "/TEI.2/text/body/entry[position()>0 and contains(form/orth,'%s')]"
+msgstr "/TEI.2/text/body/entry[position()>0 and contains(form/orth,'%s')]"
+
+#: freedict-editor.glade:261
+msgid "_File"
+msgstr "_Datei"
+
+#: freedict-editor.glade:268
+msgid "New TEI File"
+msgstr "Neue TEI-Datei"
+
+#: freedict-editor.glade:269
+msgid "gtk-new"
+msgstr ""
+
+#: freedict-editor.glade:278
+msgid "gtk-open"
+msgstr ""
+
+#: freedict-editor.glade:287
+msgid "gtk-save"
+msgstr ""
+
+#: freedict-editor.glade:296
+msgid "gtk-save-as"
+msgstr ""
+
+#: freedict-editor.glade:310
+msgid "gtk-quit"
+msgstr ""
+
+#: freedict-editor.glade:323
+msgid "_Edit"
+msgstr "B_earbeiten"
+
+#: freedict-editor.glade:330
+msgid "gtk-cut"
+msgstr ""
+
+#: freedict-editor.glade:339
+msgid "gtk-copy"
+msgstr ""
+
+#: freedict-editor.glade:348
+msgid "gtk-paste"
+msgstr ""
+
+#: freedict-editor.glade:357
+msgid "gtk-clear"
+msgstr ""
+
+#: freedict-editor.glade:371
+msgid "Add New Entry"
+msgstr "Neuen Eintrag hinzufügen"
+
+#: freedict-editor.glade:372
+msgid "Ne_w Entry"
+msgstr "Neuer Eintrag (_w)"
+
+#: freedict-editor.glade:388
+msgid "Delete Currently Edited Entry"
+msgstr "Momentan bearbeiteten Eintrag löschen"
+
+#: freedict-editor.glade:389
+msgid "_Delete Entry"
+msgstr "Eintrag löschen (_D)"
+
+#: freedict-editor.glade:405
+msgid "Save Changes to Entry"
+msgstr "Änderungen an Eintrag speichern"
+
+#: freedict-editor.glade:406
+msgid "Sa_ve Entry"
+msgstr "Eintrag speichern (_v)"
+
+#: freedict-editor.glade:444
+msgid "Edit information about the dictionary"
+msgstr "Informationen über das Wörterbuch bearbeiten"
+
+#: freedict-editor.glade:445
+msgid "_Edit TEI Header"
+msgstr "TEI-Header bearbeiten"
+
+#: freedict-editor.glade:461
+msgid "_Spell Check..."
+msgstr "Recht_schreibprüfung..."
+
+#: freedict-editor.glade:477
+msgid "Find Entries with missing Information"
+msgstr "Einträge mit fehlenden Informationen finden"
+
+#: freedict-editor.glade:478
+msgid "S_anity Checks..."
+msgstr "Formprüfungen... (_a)"
+
+#: freedict-editor.glade:499
+msgid "gtk-preferences"
+msgstr ""
+
+#: freedict-editor.glade:512
+msgid "_View"
+msgstr "_Ansicht"
+
+#: freedict-editor.glade:519
+msgid "Lock _Dockitems"
+msgstr "Symbolleisten fixieren (_d)"
+
+#: freedict-editor.glade:527
+msgid "Toggle whether Labels are shown before Input fields"
+msgstr "Anzeige von Beschriftungen für Eingabafelder umschalten"
+
+#: freedict-editor.glade:528
+msgid "_Labels"
+msgstr "Beschriftungen (_L)"
+
+#: freedict-editor.glade:537
+msgid "Toggle Display of Toolbar"
+msgstr "Werkzeugleiste"
+
+#: freedict-editor.glade:538
+msgid "_Toolbar"
+msgstr "Werkzeugleiste (_T)"
+
+#: freedict-editor.glade:547
+msgid "Toggle Display of HTML Preview Area"
+msgstr "HTML-Vorschau"
+
+#: freedict-editor.glade:548
+msgid "_HTML Preview"
+msgstr "_HTML-Vorschau"
+
+#: freedict-editor.glade:557
+msgid "Calls xkbprint to display current keyboard layout"
+msgstr "Ruft xkbprint auf, um derzeitiges Tastaturlayout anzuzeigen"
+
+#: freedict-editor.glade:558
+msgid "_Keyboard Layout"
+msgstr "Tastaturlayout"
+
+#: freedict-editor.glade:577
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: freedict-editor.glade:584
+msgid "gtk-about"
+msgstr ""
+
+#: freedict-editor.glade:594
+msgid "gtk-help"
+msgstr ""
+
+#: freedict-editor.glade:639
+msgid "Entries that match the select expression"
+msgstr "Einträge, die auf den Select-Ausdruck passen"
+
+#: freedict-editor.glade:656
+msgid "En_tries"
+msgstr "Ein_träge"
+
+#: freedict-editor.glade:691
+msgid "The XML edit mode is selected or the entry cannot be edited with the formular."
+msgstr "Der XML-Bearbeitungsmodus ist aktiv oder der Eintrag kann nicht im Formular-Bearbeitungsmodus bearbeitet werden."
+
+#: freedict-editor.glade:702
+msgid "_XML"
+msgstr "_XML"
+
+#: freedict-editor.glade:733
+msgid "Part of _Speech"
+msgstr "Wortart (_S)"
+
+#: freedict-editor.glade:758
+msgid "_Number"
+msgstr "Zahl (_N)"
+
+#: freedict-editor.glade:772
+msgid "Number"
+msgstr "Zahl"
+
+#: freedict-editor.glade:785
+msgid "_Genus"
+msgstr "_Genus"
+
+#: freedict-editor.glade:820
+msgid "Please enter Unicode encoded characters of the International Phonetic Alphabet"
+msgstr "Bitte Unicode-Zeichen des Internationalen Phonetischen Alphabets eingeben"
+
+#: freedict-editor.glade:836
+msgid "_Pronunciation"
+msgstr "Auss_prache"
+
+#: freedict-editor.glade:851
+msgid "How the word is written"
+msgstr "Wie das Wort geschrieben wird"
+
+#: freedict-editor.glade:865
+msgid "_Orthography"
+msgstr "_Orthographie"
+
+#: freedict-editor.glade:879
+msgid "Headword(s)"
+msgstr "Stichwort(e)"
+
+#: freedict-editor.glade:916
+msgid "Append new Sense to Entry"
+msgstr "Neue Bedeutung zu Eintrag hinzufügen"
+
+#: freedict-editor.glade:928
+msgid "Remove last Sense from Entry"
+msgstr "Letzte Bedeutung des Eintrags entfernen"
+
+#: freedict-editor.glade:953
+msgid "Sense(s)"
+msgstr "Bedeutung(en)"
+
+#: freedict-editor.glade:972
+msgid "For_m"
+msgstr "For_mular"
+
+#: freedict-editor.glade:1020
+msgid "Spell Check"
+msgstr "Rechtschreibprüfung"
+
+#: freedict-editor.glade:1038
+msgid "0"
+msgstr "0"
+
+#: freedict-editor.glade:1051
+msgid "Replacements made"
+msgstr "Ersetzungen"
+
+#: freedict-editor.glade:1077
+msgid "_Headword Language"
+msgstr "Stic_hwort-Sprache"
+
+#: freedict-editor.glade:1092
+msgid "_Translation Language"
+msgstr "Überse_tzungssprache"
+
+#: freedict-editor.glade:1116
+msgid "<orth> - Headwords"
+msgstr "<orth> - Stichworte"
+
+#: freedict-editor.glade:1131
+msgid "<tr> - Translations"
+msgstr "<tr> - Übersetzungen"
+
+#: freedict-editor.glade:1147
+msgid "<eg><q> - Quotes of Examples"
+msgstr "<eg><q> - Beispielphrasen"
+
+#: freedict-editor.glade:1162
+msgid "<eg><tr> - Translations of Examples"
+msgstr "<eg><tr> - Übersetzungen der Beispiele"
+
+#: freedict-editor.glade:1178
+msgid "_What to check"
+msgstr "_Was soll geprüft werden?"
+
+#: freedict-editor.glade:1196
+msgid "What language to use for checking the words"
+msgstr "Zur Rechtschreibprüfung zuverwendende Sprache"
+
+#: freedict-editor.glade:1211
+msgid "Acc_ept Run-Together Words"
+msgstr "Zusammenhängende Wörter akzeptieren"
+
+#: freedict-editor.glade:1227
+msgid "Spelling _Dictionary:"
+msgstr "Rechtschreibwörterbuch (_D):"
+
+#: freedict-editor.glade:1247
+msgid "Aspell _Options"
+msgstr "Aspell-Einstellungen"
+
+#: freedict-editor.glade:1278
+msgid "Double-Click a suggestion to replace the misspelled word with it"
+msgstr "Doppelklick auf einen Vorschlag ersetzt das unbekannte Wort durch den Vorschlag"
+
+#: freedict-editor.glade:1297
+msgid "Nodes checked"
+msgstr "Knoten geprüft"
+
+#: freedict-editor.glade:1311
+msgid "_Suggestions"
+msgstr "Vor_schläge"
+
+#: freedict-editor.glade:1326
+msgid "The misspelled word will be replaced by this when you click on Replace"
+msgstr "Das unbekannte Wort wird durch dieses ersetzt, wenn Ersetzen gewählt wird"
+
+#: freedict-editor.glade:1342
+msgid "R_eplacement"
+msgstr "_Ersetzung"
+
+#: freedict-editor.glade:1358
+msgid "A word that was not found in the spelling dictionary"
+msgstr "Das Wort wurde nicht im Rechtschreibwörterbuch gefunden"
+
+#: freedict-editor.glade:1372
+msgid "Misspelled Word"
+msgstr "Unbekanntes Wort"
+
+#: freedict-editor.glade:1391
+msgid "Replace misspelled word with current Replacement"
+msgstr "Ersetze unbekanntes Wort durch gewählte Ersetzung"
+
+#: freedict-editor.glade:1416
+msgid "_Replace"
+msgstr "E_rsetzen"
+
+#: freedict-editor.glade:1436
+msgid "Replace all occurences of the misspelled word with current Replacement"
+msgstr "Alle Vorkommen des unbekannten Wortes mit gewählter Ersetzung ersetzen"
+
+#: freedict-editor.glade:1437
+msgid "Replace _All"
+msgstr "_Alle ersetzen"
+
+#: freedict-editor.glade:1451
+msgid "Ignore current occurence of the misspelled word"
+msgstr "Überspringe dieses Vorkommen des unbekannten Wortes"
+
+#: freedict-editor.glade:1476
+msgid "_Ignore"
+msgstr "Überspr_inge"
+
+#: freedict-editor.glade:1499
+msgid "Ignore all occurences of the misspelled word"
+msgstr "Alle Vorkommen des unbekannten Wortes überspringen"
+
+#: freedict-editor.glade:1500
+msgid "I_gnore All"
+msgstr "Alle übersprin_gen"
+
+#: freedict-editor.glade:1514
+msgid "Add misspelled word to the personal GNU aspell word list of this language"
+msgstr "Unbekanntes Wort zur persönlichen Wortliste der aktuellen Sprache von GNU aspell hinzufügen"
+
+#: freedict-editor.glade:1548
+msgid "FreeDict-Editor Preferences"
+msgstr "FreeDict-Editor Einstellungen"
+
+#: freedict-editor.glade:1583
+msgid "_XSLT-Stylesheet for HTML Preview"
+msgstr "_XSLT-Stilvorlage zur HTML-Vorschau"
+
+#: freedict-editor.glade:1620
+msgid "label57"
+msgstr ""
+
+#: freedict-editor.glade:1634
+msgid "Use Custom Value"
+msgstr "Spezifischen Wert verwenden"
+
+#: freedict-editor.glade:1653
+msgid "Use Default Value:"
+msgstr "Standardwert verwenden:"
+
+#: freedict-editor.glade:1670
+msgid "_General"
+msgstr "All_gemeines"
+
+#: freedict-editor.glade:1716
+msgid "Source Document that justifies inclusion of an entry. Automatically added to edited entries."
+msgstr ""
+
+#: freedict-editor.glade:1733
+msgid "Add _Source Reference to Edited Entries"
+msgstr "Quellenreferenzen automati_sch zu bearbeiteten Einträgen hinzufügen"
+
+#: freedict-editor.glade:1764
+msgid "editer_default_email_label"
+msgstr ""
+
+#: freedict-editor.glade:1780
+msgid "Use Default Email:"
+msgstr ""
+
+#: freedict-editor.glade:1799
+msgid "Use Custom Email:"
+msgstr ""
+
+#: freedict-editor.glade:1818
+msgid "Add _Author/Editor to Edited Entries"
+msgstr ""
+
+#: freedict-editor.glade:1835
+msgid "template_default_label"
+msgstr ""
+
+#: freedict-editor.glade:1872
+msgid "Use Default:"
+msgstr ""
+
+#: freedict-editor.glade:1890
+msgid "Use Custom Value:"
+msgstr ""
+
+#: freedict-editor.glade:1908
+msgid "Entry _Template"
+msgstr "Vorlage für neue Einträge"
+
+#: freedict-editor.glade:1939
+msgid "editer_default_name_label"
+msgstr ""
+
+#: freedict-editor.glade:1955
+msgid "Use Custom Name:"
+msgstr "Verwende spezifischen Namen:"
+
+#: freedict-editor.glade:1974
+msgid "Use Default Name:"
+msgstr "Verwende Standard-Namen:"
+
+#: freedict-editor.glade:1992
+msgid "This information is automatically added to every edited entry"
+msgstr "Diese Informationen werden automatisch zu jedem bearbeiteten Eintrag hinzugefügt"
+
+#: freedict-editor.glade:2007
+msgid ""
+"POS-, Num-, Gen-, XRef-Types\n"
+"+\n"
+"Descriptions"
+msgstr ""
+
+#: freedict-editor.glade:2025
+msgid "_Entry Editor"
+msgstr "_Eintragseditor"
+
+#: freedict-editor.glade:2040
+msgid "_Sanity Checks"
+msgstr "Formprüfungen (_S)"
+
+#: freedict-editor.glade:2053
+msgid "Check Sanity"
+msgstr "Form überprüfen"
+
+#: freedict-editor.glade:2082
+msgid "About FreeDict-Editor"
+msgstr "Über FreeDict-Editor"
+
+#: freedict-editor.glade:2086
+msgid "FreeDict Project, freedict.org, 2005-2007"
+msgstr "FreeDict-Projekt, freedict.org, 2005-2007"
+
+#: freedict-editor.glade:2088
+msgid "GNU General Public License V2 or any later version"
+msgstr "GNU General Public License V2 oder irgendeine spätere Version"
+
+#~ msgid "_Dual"
+#~ msgstr "_Dual"
+#~ msgid "_Plural"
+#~ msgstr "_Plural"
+#~ msgid "_Masculine"
+#~ msgstr "_Maskulin"
+#~ msgid "_Neuter"
+#~ msgstr "_Neutrum"
+#~ msgid "XML View"
+#~ msgstr "XML-Ansicht"
+#~ msgid "translator_credits"
+#~ msgstr "Michel Bunk"
+#~ msgid "Select XSLT-Stylesheet"
+#~ msgstr "XSLT-Stilvorlage auswählen"
+#~ msgid "Could not load %s!"
+#~ msgstr "Konnte %s nicht laden."
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Konnte Pixmap nicht finden: %s"
+

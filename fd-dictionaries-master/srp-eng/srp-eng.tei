@@ -1,0 +1,4754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title>Serbian - English FreeDict Dictionary</title>
+            <respStmt>
+               <!-- for the freedict database -->
+               <resp>Maintainer</resp>
+               <name>[up for grabs]</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.2</edition>
+         </editionStmt>
+         <extent>395 headwords</extent>
+         <publicationStmt>
+            <publisher>FreeDict</publisher>
+            <availability status="free">
+               <p>Copyright (C) 1999-2017 by various authors listed below.</p>
+               <p>Available under the terms of the <ref target="https://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License ver. 2.0 and any later version</ref>.</p>
+               <p>This program is free software; you can redistribute it and/or modify it under the
+                  terms of the GNU General Public License as published by the Free Software
+                  Foundation; either version 2 of the License, or (at your option) any later
+                  version.</p>
+               <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY
+                  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+                  PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+               <p>You should have received a copy of the GNU General Public License along with this
+                  program; if not, write to the Free Software Foundation, Inc., 59 Temple Place -
+                  Suite 330, Boston, MA 02111-1307, USA.</p>
+            </availability>
+            <pubPlace>
+               <ref target="http://freedict.org/">http://freedict.org/</ref>
+            </pubPlace>
+            <idno type="svn">$Id$</idno>
+         </publicationStmt>
+         <notesStmt>
+            <note type="status">too small</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Home: <ptr target="http://www.travlang.com/" />
+            </p>
+            <p>This Database was generated from Ergane.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This dictionary comes to you through nice people making it available for free and for
+               good. It is part of the FreeDict project, <ref target="http://freedict.org/">http://freedict.org/</ref>. This project aims to make translating dictionaries
+               available for free. Your contributions are welcome!</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sr" n="source">
+               <idno type="iso639-1">sr</idno>
+               <idno type="iso639-3">srp</idno>
+               <name xml:lang="sr">српски</name>
+               <name xml:lang="en">Serbian</name>
+            </language>
+            <language ident="en" n="target">
+               <idno type="iso639-1">en</idno>
+               <idno type="iso639-3">eng</idno>
+               <name xml:lang="sr">енглески</name>
+               <name xml:lang="en">English</name>
+            </language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change n="0.2" when="2017-12-09">
+            <name>Sebastian Humenda</name>
+            <list>
+               <item>update licencing stanza (thanks to Karl Bartel)</item>
+               <item>remove duplicated entries</item>
+            </list>
+         </change>
+         <change when="2010-12-09">
+            <date>2010-12-09</date>
+            <name>Piotr Bański</name>: Added @xml:lang attributes and profileDesc/langUsage.</change>
+         <change when="2010-12-01">
+            <date>2010-12-01</date>
+            <name>Piotr Bański</name>: Database name changed to srp-eng, as the content was
+            confirmed to be Serbian with some dialectal Montenegrin additions (many thanks to Dr.
+            Jerzy Molas of the University of Warsaw for his input). TODO: mark the dialectal
+            additions with the appropriate &lt;usg&gt; notes.</change>
+         <change when="2010-11-01">
+            <date>2010-11-01</date>
+            <name>Piotr Bański</name>: Conversion of TEI P4 source into P5 via
+            tools/xsl/freedict_P4toP5.xsl; manual clean-up.</change>
+         <change>
+            <date>2005-02-12</date>
+            <name>Michael Bunk</name>Converted file to TEI P4</change>
+         <change>
+            <date>2000-04-30</date>
+            <name>Horst Eyermann</name>Database was converted to TEI format and checked into CVS</change>
+         <change>
+            <date>2000-01-01</date>
+            <name>Horst Eyermann</name>This Database was generated from ergane,
+            http://www.travlang.com - Thanks!</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body xml:lang="en">
+         <entry>
+            <form xml:lang="sr">
+               <orth>Југославен</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Yugoslav</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>Yugoslavian</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Југославија</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Yugoslavia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Југословен</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Yugoslav</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>Yugoslavian</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>јабука</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>apple</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>јагње</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>lamb</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>јануар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>January</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>јастук</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>cushion</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>један</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>one</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>једна</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>one</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>једно</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>one</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>језеро</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>lake</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>loch</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>језик</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>tongue</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>language</quote>
+               </cit>
+               </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>јул</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>July</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>јун</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>June</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>јунак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hero</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>јуче</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>yesterday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Њемачка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Germany</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>љекар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>doctor</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>physician</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>љето</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>summer</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>љубав</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>affection</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>love</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>људи</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>people</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Бог</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>God</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Енглез</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Englishman</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>Sassenach</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Енглеска</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>England</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Енглескиња</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>English</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>Englishwoman</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Немачка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Germany</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Србин</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Serb</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Француз</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Frenchman</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Францускиња</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Frenchwoman</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Хрват</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Croat</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Хрватска</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Croatia</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Циганин</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>gypsy</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>Gypsy</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>Чех</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Czech</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>август</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>August</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>авион</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>aeroplane</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>airplane</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>plane</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>aircraft</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>адреса</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>address</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>аеродром</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>airport</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>аероплан</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>aeroplane</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>airplane</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>plane</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ако</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>if</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>provided that</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>али</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>but</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>април</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>April</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>аутомобил</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>car</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>баба</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>grandmother</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>балкон</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>balcony</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>бацати</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>throw</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>бацити</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>throw</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>баш</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>exactly</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>sharp</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>башта</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>garden</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>без</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>without</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>берберин</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>barber</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>hairdresser</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>библиотека</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>library</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>биоскоп</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>cinema</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>movie theatre</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>бифтек</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>steak</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>beefsteak</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>боја</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>colour</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>dye</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>бол</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ache</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>pain</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>бомба</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bomb</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>брат</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>brother</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>брег</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hill</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>бресква</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>peach</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>брзо</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>fast</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>quickly</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>swiftly</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>бријег</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hill</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>брод</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ship</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>vessel</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>бубрег</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kidney</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ваздух</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>air</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>варош</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>city</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>town</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>већ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>but</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>however</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>nevertheless</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>yet</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>веђ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>already</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>by now</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>yet</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>вељача</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>February</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>вече</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>evening</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>вино</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wine</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>висина</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>altitude</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>height</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>воће</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>fruit</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>војник</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pawn</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>soldier</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>војска</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>army</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>вода</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>water</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>враг</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>devil</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>врата</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>door</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>време</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>time</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>while</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>weather</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>вријеме</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>time</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>while</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>weather</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>врло</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>quite</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>very</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>very much</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>врт</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>garden</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>врућина</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>heat</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>галама</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ado</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>din</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>noise</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>глумац</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>actor</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>глумица</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>actress</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>година</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>year</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>гост</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>guest</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>гостионица</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hostel</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>inn</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>град</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>city</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>town</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>грана</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bough</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>branch</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>да</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>yes</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>дан</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>day</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>данас</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>today</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>датум</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>date</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>два</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>two</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>две</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>two</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>двоје</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pair</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>девет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>nine</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>девојка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>girl</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>lass</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>wench</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>десет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ten</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>децембар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>December</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>джеп</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pocket</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>диван</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>couch</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>divan</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>до виђења</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bye</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>goodbye</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>so long</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>доба</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>age</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>доручак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>breakfast</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>дућан</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>boutique</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>shop</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>store</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>дужност</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>duty</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>obligation</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>жена</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>woman</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>живот</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>life</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>заједно</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>together</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>збогом</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>adieu</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>farewell</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>bye</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>goodbye</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>зграда</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>building</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>земља</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>earth</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>land</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>soil</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>зид</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>wall</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>зима</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>winter</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>зуб</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>tooth</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>и</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>and</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>иако</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>though</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>although</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>играчка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>toy</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>из</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>from</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>out of</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>између</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>among</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>between</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>или</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>or</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>име</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>appellation</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>name</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>иностранство</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>abroad</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>истина</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>reality</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>truth</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кћерка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>daughter</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кћи</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>daughter</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>к</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>at</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>to</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>toward</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>towards</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кључ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>lock</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>књига</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>book</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>at</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>to</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>toward</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>towards</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>камен</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>stone</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>канцеларија</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bureau</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>office</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>карта</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>card</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>map</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>menu</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кафа</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>coffee</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кафана</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>café</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>coffee‐house</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кашика</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>spoon</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>келнер</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>waiter</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>килограм</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kilo</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>клас</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>class</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>клима</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>climate</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кнез</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>prince</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кољено</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>knee</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>коњ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>horse</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ковчег</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>box</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>chest</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>когод</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>a</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>any</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>anybody</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>some</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>somebody</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>one</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>some one</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кола</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>vehicle</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>колено</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>knee</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>коловоз</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>August</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>комад</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bit</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>lump</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>piece</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>конзул</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>consul</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>концерат</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>concert</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>концерт</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>concert</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кост</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bone</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>краљ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>king</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кревет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bed</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кров</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>roof</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кроз</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>through</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>купатило</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bathroom</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>купе</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>compartment</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>coupé</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>кухиња</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>kitchen</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>леђа</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>back</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>лед</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ice</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>лекар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>doctor</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>physician</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>лето</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>summer</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>лиспањ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>June</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>листопад</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>October</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>литар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>liter</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>litre</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>лице</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>face</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мјесец</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>moon</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>month</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мјесто</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>place</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>location</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>spot</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мај</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>May</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мајка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mother</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>магла</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>fog</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>mist</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>марка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>stamp</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>postage stamp</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>март</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>March</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мати</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mother</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мачка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>cat</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>машина</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>engine</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>machine</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>typewriter</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мед</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>honey</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>месец</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>moon</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>month</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>месо</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>meat</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>место</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>place</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>location</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>spot</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>метар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>metre</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ми</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>us</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>we</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>миља</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mile</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>милицајац</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>policeman</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>министар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>minister</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мир</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>peace</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>можда</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>maybe</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>mayhap</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>perchance</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>perhaps</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>possibly</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>море</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>sea</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мост</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bridge</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>мрак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>darkness</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>murk</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>муж</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>husband</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>музеј</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>museum</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>музика</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>music</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>неђеља</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Sunday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>небо</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>heaven</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>sky</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>негђе</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>anywhere</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>somewhere</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>негде</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>anywhere</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>somewhere</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>него</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>than</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>недеља</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Sunday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>незгода</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>accident</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>неко</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>a</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>any</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>anybody</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>some</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>somebody</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>one</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>some one</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>непријатељ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>adversary</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>enemy</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>нешто</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>anything</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>something</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>нигђе</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>nowhere</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>нигде</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>nowhere</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>никад</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>never</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>никада</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>never</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>нико</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>neither</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>nobody</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>none</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>no‐one</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ништа</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>nothing</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ноћ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>night</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>новембар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>November</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>нога</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>leg</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>нож</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>knife</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>нос</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>nose</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ођедном</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>all of a sudden</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>suddenly</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>обала</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>coast</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>seaside</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>shore</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>обичај</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>custom</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>habit</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>way</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>обично</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ordinarily</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>usually</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>обоје</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>both</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>обрва</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>brow</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>eyebrow</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>оглас</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ad</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>advertisement</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ожујак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>March</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>око</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>eye</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>октобар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>October</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>оловка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pencil</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>он</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>he</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>him</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>она</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>her</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>she</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>оно</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>it</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>опасност</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>danger</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>peril</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>опет</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>afresh</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>again</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>all over again</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>anew</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>once more</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>орах</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>walnut</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ормар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>cabinet</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>closet</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>cupboard</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>sideboard</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>осам</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>eight</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>отсутан</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>absent</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пјесма</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>afoot</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>on foot</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пјешице</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>afoot</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>on foot</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pair</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>парк</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>park</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пас</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>dog</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пасош</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>passport</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>перон</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>platform</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>quay</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>wharf</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>песма</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>afoot</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>on foot</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>five</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>петак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Friday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пешице</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>afoot</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>on foot</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пиво</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ale</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>beer</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>писмо</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>letter</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>питање</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>question</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>планина</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>mountain</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>плата</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>salary</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>wage</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>wages</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>плеће</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>shoulder</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>погрешка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>aberration</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>error</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>mistake</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>под</orth>
+            </form>
+            <sense n="1">
+               <cit type="trans">
+                  <quote>floor</quote>
+               </cit>
+            </sense>
+            <sense n="2">
+               <cit type="trans">
+                  <quote>below</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>beneath</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>under</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>underneath</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>позориште</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>theatre</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>полиција</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>police</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>понедељак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Monday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>понекад</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>several times</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>sometimes</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>поподне</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>afternoon</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>породица</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>family</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>после</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>after</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>behind</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>постеља</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bed</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пратити</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>accompany</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>предграђе</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>suburb</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>прекјуче</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>the day before yesterday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>преко</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>across</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>beyond</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>on the other side of</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>прекосутра</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>the day after tomorrow</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>прексутра</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>the day after tomorrow</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пријатељ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>friend</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пријатељица</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>friend</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>прихватити</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>accept</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>receive</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>take</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>take in</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>прозор</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>window</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>просинац</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>December</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>против</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>across from</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>against</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>in exchange for</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>opposed to</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>opposite</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>upon</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>професор</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>professor</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>прст</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>finger</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>прстен</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ring</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>пут</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>time</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>while</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>рад</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>job</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>work</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>радња</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>boutique</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>shop</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>store</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>радник</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hand</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>laborer</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>labourer</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>operative</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>worker</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>working man</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>workman</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>радост</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>gladness</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>joy</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>рана</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>injury</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>wound</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>рат</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>war</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>рачун</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>account</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>река</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>river</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ресторан</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>restaurant</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>реч</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>word</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>речник</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>dictionary</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>vocabulary</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ријека</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>river</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ријеч</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>word</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ријечник</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>dictionary</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>vocabulary</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>риба</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>fish</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>рујан</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>September</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>рука</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hand</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>рукавица</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>glove</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>mitten</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сјеме</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>seed</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>савјет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>advice</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>counsel</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>савет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>advice</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>counsel</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сагласити се</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>accede</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>agree</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>consent</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сад</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>at present</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>now</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сада</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>at present</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>now</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сам</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>alone</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>only</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>sole</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>solitary</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>саобраћај</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>traffic</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сат</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hour</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>o'clock</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>time</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>све</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>all</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>altogether</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>everything</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>свет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>world</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>свијет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>world</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>свибањ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>May</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>свуда</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>all about</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>everywhere</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>седам</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>seven</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>село</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>village</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>семе</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>seed</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>септембар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>September</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сестра</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>sister</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сијечањ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>January</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>син</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>son</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сир</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>cheese</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>скупа</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>together</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>слика</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>painting</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>picture</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сликар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>painter</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>слуга</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>boy</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>servant</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>смоква</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>fig</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>снаха</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>daughter‐in‐law</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>снег</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>snow</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>снијег</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>snow</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>соба</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>chamber</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>room</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>списак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>list</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>способан</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>able</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>capable</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>среда</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Wednesday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сриједа</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Wednesday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>српањ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>July</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>срце</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>heart</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>стаза</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>path</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>станица</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>station</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ствар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>affair</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>business</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>business deal</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>case</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>matter</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>столица</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>chair</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>странац</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>foreigner</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>страница</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>page</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>стриц</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>uncle</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>студент</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>academic</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>student</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>студенткиња</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>student</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>female student</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>судац</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>judge</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сунце</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>sun</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>супа</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>soup</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>сутра</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>tomorrow</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>тајна</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>secret</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>тањир</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>plate</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>такоде</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>also</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>likewise</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>too</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>такси</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>taxi</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>тетка</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>aunt</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>травањ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>April</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>три</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>three</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>турист</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>tourist</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>у</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>a</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>in</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>inside</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>into</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>on</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>per</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>within</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>увек</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>always</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ever</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>увијек</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>always</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>ever</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>уво</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ear</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>универзитет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>university</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>усна</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>lip</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>успјех</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>achievement</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>success</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>успех</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>achievement</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>success</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>уторак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Tuesday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ухо</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>ear</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>учитељ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>instructor</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>teacher</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>фебруар</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>February</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>фунта</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>pound</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>хљеб</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bread</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>loaf</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>хармоника</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>accordion</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>хартија</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>paper</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>хлеб</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bread</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>loaf</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>хотел</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hotel</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>храброст</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>courage</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>цвет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bloom</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>flower</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>цвијет</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>bloom</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>flower</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>циљ</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>aim</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>goal</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>purpose</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>target</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>цигарета</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>cigarette</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>ципела</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>shoe</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>црква</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>church</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>church‐building</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>house of worship</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>place of worship</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>чај</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>tea</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>чек</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>check</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>cheque</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>чекић</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hammer</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>често</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>frequently</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>often</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>regularly</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>четвртак</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>Thursday</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>четири</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>four</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>шећер</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>sugar</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>шест</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>six</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>шешир</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>hat</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>школа</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>school</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>шоља</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>cup</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>шофер</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>chauffeur</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>driver</quote>
+               </cit>
+            </sense>
+         </entry>
+         <entry>
+            <form xml:lang="sr">
+               <orth>шума</orth>
+            </form>
+            <sense>
+               <cit type="trans">
+                  <quote>forest</quote>
+               </cit>
+               <cit type="trans">
+                  <quote>woods</quote>
+               </cit>
+            </sense>
+         </entry>
+      </body>
+   </text>
+</TEI>
